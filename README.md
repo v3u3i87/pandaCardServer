@@ -10,7 +10,7 @@ qq交流群：307542328
 ![部分功能](https://raw.githubusercontent.com/hipandyu/pandaCard/master/主要功能%402x.png)
 
 
-感觉有用的扫下微信二维码，给兄弟奶一下，打个赏，让我回点血。
+感觉有用的扫下微信二维码，给兄弟奶一下，打个赏，让我回点血。 
 
 ![微信二维码](https://raw.githubusercontent.com/hipandyu/pandaCard/master/微信二维码.png)
 
