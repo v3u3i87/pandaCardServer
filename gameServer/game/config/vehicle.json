@@ -1,0 +1,7 @@
+[{
+    "vehicleid":"vehicle1",
+    "vehiclepic":"ger_car003.png",
+    "vehiclename":"机枪",
+    "commanderskillid":108,
+    "activationcondition":[1,1]
+  }]

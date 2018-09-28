@@ -1,0 +1,299 @@
+2018/08/24 23:07:47 [notice] 16004#5656: using the "select" event method
+2018/08/24 23:07:47 [notice] 16004#5656: openresty/1.13.6.2
+2018/08/24 23:07:47 [info] 16004#5656: OS: 300000 build:17134, "", suite:100, type:1
+2018/08/24 23:07:47 [notice] 16004#5656: start worker processes
+2018/08/24 23:07:47 [notice] 16004#5656: start worker process 15728
+2018/08/24 23:07:47 [notice] 15728#14868: openresty/1.13.6.2
+2018/08/24 23:07:47 [info] 15728#14868: OS: 300000 build:17134, "", suite:100, type:1
+2018/08/24 23:07:47 [notice] 15728#14868: create thread 11620
+2018/08/24 23:07:47 [notice] 15728#14868: create thread 15760
+2018/08/24 23:07:47 [notice] 15728#14868: create thread 2820
+2018/08/24 23:07:59 [error] 15728#11620: *1 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1535123279_85, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:07:59 [error] 15728#11620: *1 [lua] cidMgr.lua:28: login_key(): key:V7GQ0kXA569YuZ7waI4CnKXOKXtNLqqZnnrUy18dNYI=, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:07:59 [error] 15728#11620: *3 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:07:59 [error] 15728#11620: *3 [lua] get_svr_history.lua:16: get_history(): result:{}, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:09:14 [error] 15728#11620: *3 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=2&key=DezS+NBdgi5tBBuUC7ujPw== HTTP/1.1", subrequest: "/proxy/http://127.0.0.1:8082/login", upstream: "http://127.0.0.1:8082/login?cid=11&cn=self&type=game", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:09:14 [error] 15728#11620: *3 [lua] main.lua:32: res:http errror code 504 while sending to client, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=2&key=DezS+NBdgi5tBBuUC7ujPw== HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:10:47 [notice] 14632#6580: signal process started
+2018/08/24 23:10:47 [notice] 16004#5656: reconfiguring
+2018/08/24 23:10:47 [notice] 16004#5656: using the "select" event method
+2018/08/24 23:10:47 [notice] 16004#5656: start worker processes
+2018/08/24 23:10:47 [notice] 16004#5656: start worker process 12408
+2018/08/24 23:10:47 [notice] 12408#18192: openresty/1.13.6.2
+2018/08/24 23:10:47 [info] 12408#18192: OS: 300000 build:17134, "", suite:100, type:1
+2018/08/24 23:10:47 [notice] 15728#14868: gracefully shutting down
+2018/08/24 23:10:47 [notice] 12408#18192: create thread 15536
+2018/08/24 23:10:47 [notice] 15728#15760: exiting
+2018/08/24 23:10:47 [notice] 12408#18192: create thread 3020
+2018/08/24 23:10:47 [notice] 12408#18192: create thread 17140
+2018/08/24 23:10:47 [notice] 15728#11620: exiting
+2018/08/24 23:10:47 [notice] 15728#14868: exit
+2018/08/24 23:10:47 [notice] 16004#5656: worker process 15728 exited with code 0
+2018/08/24 23:11:20 [error] 12408#15536: *5 [lua] main.lua:24: host:http://127.0.0.1:8082/login args.id:2, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=2&key=DezS+NBdgi5tBBuUC7ujPw== HTTP/1.1", host: "127.0.0.1:8089"
+2018/08/24 23:11:50 [info] 12408#15536: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8089
+2018/08/24 23:12:20 [error] 12408#15536: *5 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=2&key=DezS+NBdgi5tBBuUC7ujPw== HTTP/1.1", subrequest: "/proxy/http://127.0.0.1:8082/login", upstream: "http://127.0.0.1:8082/login?cid=11&cn=self&type=game", host: "127.0.0.1:8089"
+2018/08/24 23:12:20 [error] 12408#15536: *5 [lua] main.lua:32: res:http errror code 504 while sending to client, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=2&key=DezS+NBdgi5tBBuUC7ujPw== HTTP/1.1", host: "127.0.0.1:8089"
+2018/08/24 23:22:53 [error] 12408#15536: *8 [lua] main.lua:24: host:http://127.0.0.1:8082/login args.id:2, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=2&key=DezS+NBdgi5tBBuUC7ujPw== HTTP/1.1", host: "127.0.0.1:8089"
+2018/08/24 23:23:07 [info] 12408#15536: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8089
+2018/08/24 23:23:19 [error] 12408#15536: *11 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1535124199_85, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:23:19 [error] 12408#15536: *11 [lua] cidMgr.lua:28: login_key(): key:TC7+NboYIEZhx41lTHS0LKTxt9X7f4/RBI3d9lDfpqI=, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:23:19 [error] 12408#15536: *13 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:23:19 [error] 12408#15536: *13 [lua] get_svr_history.lua:16: get_history(): result:{}, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:23:21 [error] 12408#15536: *13 [lua] main.lua:24: host:http://127.0.0.1:8082/login args.id:2, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=2&key=fr/4oiuIlRI35m2Vnp4Ta4VGNA7BdPKh5kB1lJfn7R4= HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:23:28 [notice] 12732#18076: signal process started
+2018/08/24 23:23:28 [notice] 16004#5656: shutting down
+2018/08/24 23:23:28 [notice] 12408#18192: gracefully shutting down
+2018/08/24 23:23:28 [notice] 12408#3020: exiting
+2018/08/24 23:23:36 [notice] 13472#17884: using the "select" event method
+2018/08/24 23:23:36 [notice] 13472#17884: openresty/1.13.6.2
+2018/08/24 23:23:36 [info] 13472#17884: OS: 300000 build:17134, "", suite:100, type:1
+2018/08/24 23:23:36 [notice] 13472#17884: start worker processes
+2018/08/24 23:23:36 [notice] 13472#17884: start worker process 17412
+2018/08/24 23:23:36 [notice] 17412#13848: openresty/1.13.6.2
+2018/08/24 23:23:36 [info] 17412#13848: OS: 300000 build:17134, "", suite:100, type:1
+2018/08/24 23:23:36 [notice] 17412#13848: create thread 18148
+2018/08/24 23:23:36 [notice] 17412#13848: create thread 16508
+2018/08/24 23:23:36 [notice] 17412#13848: create thread 17364
+2018/08/24 23:23:36 [error] 17412#18148: *1 [lua] main.lua:24: host:http://127.0.0.1:8082/login args.id:2, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=2&key=fr/4oiuIlRI35m2Vnp4Ta4VGNA7BdPKh5kB1lJfn7R4= HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:23:48 [info] 17412#18148: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8089
+2018/08/24 23:23:55 [error] 17412#18148: *4 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1535124235_85, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:23:55 [error] 17412#18148: *4 [lua] cidMgr.lua:28: login_key(): key:zvD6busq/lJooEAQCgaKonqHTrUyW/XzJ8Egm4VopGw=, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:23:55 [error] 17412#18148: *6 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:23:55 [error] 17412#18148: *6 [lua] get_svr_history.lua:16: get_history(): result:{}, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:23:57 [error] 17412#18148: *6 [lua] main.lua:24: host:http://127.0.0.1:8082/login args.id:2, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=2&key=s/zAvaW4RZrLZd5j9lDi6QGYrzFEhBmD/6RRzUJEdb4= HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:23:57 [error] 17412#18148: *6 [lua] main.lua:32: res:{"status":0,"uid":2,"verifycode":"KUSCLCDVTCKUCAME"}
+ while sending to client, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=2&key=s/zAvaW4RZrLZd5j9lDi6QGYrzFEhBmD/6RRzUJEdb4= HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:24:36 [error] 17412#18148: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=2&key=fr/4oiuIlRI35m2Vnp4Ta4VGNA7BdPKh5kB1lJfn7R4= HTTP/1.1", subrequest: "/proxy/http://127.0.0.1:8082/login", upstream: "http://127.0.0.1:8082/login?cid=11&cn=self&type=game", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:24:36 [error] 17412#18148: *1 [lua] main.lua:32: res:http errror code 504 while sending to client, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=2&key=fr/4oiuIlRI35m2Vnp4Ta4VGNA7BdPKh5kB1lJfn7R4= HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1/MiniWar-Code/"
+2018/08/24 23:24:36 [info] 17412#18148: *1 client 127.0.0.1 closed keepalive connection (10053: An established connection was aborted by the software in your host machine)
+2018/08/28 15:32:36 [notice] 8660#11528: using the "select" event method
+2018/08/28 15:32:36 [notice] 8660#11528: openresty/1.13.6.2
+2018/08/28 15:32:36 [info] 8660#11528: OS: 300000 build:17134, "", suite:100, type:1
+2018/08/28 15:32:36 [notice] 8660#11528: start worker processes
+2018/08/28 15:32:36 [notice] 8660#11528: start worker process 13828
+2018/08/28 15:32:36 [notice] 13828#10288: openresty/1.13.6.2
+2018/08/28 15:32:36 [info] 13828#10288: OS: 300000 build:17134, "", suite:100, type:1
+2018/08/28 15:32:36 [notice] 13828#10288: create thread 7672
+2018/08/28 15:32:36 [notice] 13828#10288: create thread 316
+2018/08/28 15:32:36 [notice] 13828#10288: create thread 7156
+2018/08/28 15:32:58 [error] 13828#7672: *1 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1535441578_85, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://localhost/MiniWar-Code/"
+2018/08/28 15:32:58 [error] 13828#7672: *1 [lua] cidMgr.lua:28: login_key(): key:T8l/Lo21csOSIIvWOlyuTTpOslJlPbhMtxPmCYYvHk8=, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://localhost/MiniWar-Code/"
+2018/08/28 15:32:58 [error] 13828#7672: *1 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://localhost/MiniWar-Code/"
+2018/08/28 15:32:58 [error] 13828#7672: *1 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://localhost/MiniWar-Code/"
+2018/08/28 15:33:02 [error] 13828#7672: *1 [lua] main.lua:24: host:http://127.0.0.1:8082/login args.id:1, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=JQmWocQyUEzlubjbFvIEHU/lfOzRhII0fuYw43waqZ0= HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://localhost/MiniWar-Code/"
+2018/08/28 15:33:02 [error] 13828#7672: *1 [lua] main.lua:32: res:{"status":0,"uid":2,"verifycode":"AVADDAPWZDVBWVRX"}
+ while sending to client, client: 127.0.0.1, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=JQmWocQyUEzlubjbFvIEHU/lfOzRhII0fuYw43waqZ0= HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://localhost/MiniWar-Code/"
+2018/08/28 16:58:31 [notice] 9232#9260: signal process started
+2018/08/28 16:58:31 [notice] 8660#11528: shutting down
+2018/08/28 16:58:31 [notice] 13828#10288: gracefully shutting down
+2018/08/28 16:58:31 [notice] 13828#316: exiting
+2018/08/28 16:58:32 [notice] 13828#7672: exiting
+2018/08/28 16:58:32 [notice] 13828#10288: exit
+2018/08/28 16:58:32 [notice] 8660#11528: worker process 13828 exited with code 0
+2018/08/28 16:58:32 [notice] 8660#11528: exit
+2018/08/29 10:06:04 [notice] 5860#1672: using the "select" event method
+2018/08/29 10:06:04 [notice] 5860#1672: openresty/1.13.6.2
+2018/08/29 10:06:04 [info] 5860#1672: OS: 300000 build:17134, "", suite:100, type:1
+2018/08/29 10:06:04 [notice] 5860#1672: start worker processes
+2018/08/29 10:06:04 [notice] 5860#1672: start worker process 2788
+2018/08/29 10:06:04 [notice] 2788#14124: openresty/1.13.6.2
+2018/08/29 10:06:04 [info] 2788#14124: OS: 300000 build:17134, "", suite:100, type:1
+2018/08/29 10:06:04 [notice] 2788#14124: create thread 7544
+2018/08/29 10:06:04 [notice] 2788#14124: create thread 10896
+2018/08/29 10:06:04 [notice] 2788#14124: create thread 13036
+2018/08/29 10:06:17 [error] 2788#7544: *1 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1535508377_85, client: 192.168.1.138, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/29 10:06:17 [error] 2788#7544: *1 [lua] cidMgr.lua:28: login_key(): key:SSFu5YNH52h0XgZubUdI7u045d63pjVWJ4yicIMa1rU=, client: 192.168.1.138, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/29 10:06:17 [error] 2788#7544: *1 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 192.168.1.138, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/29 10:06:17 [error] 2788#7544: *1 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 192.168.1.138, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/29 10:06:19 [error] 2788#7544: *1 [lua] main.lua:24: host:http://192.168.1.138:8082/login args.id:1, client: 192.168.1.138, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=VWWIehVIV9at0NayJMxA9MMGrQLESwXPre5oG8GeKFk= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/29 10:06:19 [error] 2788#7544: *1 [lua] main.lua:32: res:{"status":0,"uid":2,"verifycode":"TLPBKGBZXKGHNJEC"}
+ while sending to client, client: 192.168.1.138, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=VWWIehVIV9at0NayJMxA9MMGrQLESwXPre5oG8GeKFk= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:19:56 [error] 2788#7544: *5 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1535599196_83, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:19:56 [error] 2788#7544: *5 [lua] cidMgr.lua:28: login_key(): key:LyQt+xC+ZGWdo+Z6SIvqrruntrmO8JQl7K/3Fh8Rrdc=, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:19:56 [error] 2788#7544: *8 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:19:56 [error] 2788#7544: *8 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:20:36 [info] 2788#7544: *6 client 192.168.1.107 closed keepalive connection
+2018/08/30 11:20:38 [info] 2788#7544: *5 client 192.168.1.107 closed keepalive connection
+2018/08/30 11:20:38 [info] 2788#7544: *8 client 192.168.1.107 closed keepalive connection
+2018/08/30 11:22:00 [error] 2788#7544: *9 [lua] cidMgr.lua:15: create_verifycode(): verifycode:12_1535599320_80, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=self&acc=2&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:22:00 [error] 2788#7544: *9 [lua] cidMgr.lua:28: login_key(): key:ir+nsTnlWnvE0A4mrL/qSovk2CNIxou6QcIAs+2drDs=, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=self&acc=2&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:22:00 [error] 2788#7544: *12 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=12, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=12 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:22:00 [error] 2788#7544: *12 [lua] get_svr_history.lua:16: get_history(): result:{}, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=12 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:22:13 [error] 2788#7544: *9 [lua] main.lua:24: host:http://192.168.1.138:8082/login args.id:2, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=12&id=2&key=C+AUVIK60r+cSeJbycspwhFDhAFmYlSOG0jiMWcRiqk= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:22:13 [error] 2788#7544: *9 [lua] main.lua:32: res:{"status":0,"uid":3,"verifycode":"AIUXFMCTZHTMZAJI"}
+ while sending to client, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=12&id=2&key=C+AUVIK60r+cSeJbycspwhFDhAFmYlSOG0jiMWcRiqk= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:22:39 [info] 2788#7544: *12 client 192.168.1.107 closed keepalive connection
+2018/08/30 11:22:53 [error] 2788#7544: *9 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1535599373_84, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:22:53 [error] 2788#7544: *9 [lua] cidMgr.lua:28: login_key(): key:M8eQpbvRaM3Lp7pa9aAvMM+tcEhqrPNuDedMSFmIXoU=, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:22:54 [error] 2788#7544: *15 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:22:54 [error] 2788#7544: *15 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:22:55 [error] 2788#7544: *9 [lua] main.lua:24: host:http://192.168.1.138:8082/login args.id:1, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=0VLUbQcYu9kFxS+lB5PUYvswe6i9r6wUGiiaekBQsFk= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:22:55 [error] 2788#7544: *9 [lua] main.lua:32: res:{"status":0,"uid":2,"verifycode":"DDRLBXHMRBLSSHFS"}
+ while sending to client, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=0VLUbQcYu9kFxS+lB5PUYvswe6i9r6wUGiiaekBQsFk= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:23:21 [error] 2788#7544: *18 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1535599401_67, client: 192.168.1.138, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:23:21 [error] 2788#7544: *18 [lua] cidMgr.lua:28: login_key(): key:bI6P0kTHB9xoXXM7tGLjtCzRxCWYwuQXDol0627fZdA=, client: 192.168.1.138, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:23:21 [error] 2788#7544: *18 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 192.168.1.138, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:23:21 [error] 2788#7544: *18 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 192.168.1.138, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:23:23 [info] 2788#7544: *10 client 192.168.1.107 closed keepalive connection
+2018/08/30 11:23:24 [error] 2788#7544: *18 [lua] main.lua:24: host:http://192.168.1.138:8082/login args.id:1, client: 192.168.1.138, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=nMzN2FRsY3coEG5buW3b/Q== HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:23:24 [error] 2788#7544: *18 [lua] main.lua:32: res:{"status":0,"uid":2,"verifycode":"VTYQVRWLKHNYLTTS"}
+ while sending to client, client: 192.168.1.138, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=nMzN2FRsY3coEG5buW3b/Q== HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:23:29 [error] 2788#7544: *9 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1535599409_82, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:23:29 [error] 2788#7544: *9 [lua] cidMgr.lua:28: login_key(): key:zKr1U33iM2Yygm0OTumMryblwrtwgx3scB18J6mquCo=, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:23:29 [error] 2788#7544: *15 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:23:29 [error] 2788#7544: *15 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:23:31 [error] 2788#7544: *9 [lua] main.lua:24: host:http://192.168.1.138:8082/login args.id:1, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=6jdYKhOxtgL1kMpxsZSTTujcM3Wbs6vUm14Nl3OCdgk= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:23:31 [error] 2788#7544: *9 [lua] main.lua:32: res:{"status":0,"uid":2,"verifycode":"VYLLHMPDNRLZGFCK"}
+ while sending to client, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=6jdYKhOxtgL1kMpxsZSTTujcM3Wbs6vUm14Nl3OCdgk= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:23:37 [info] 2788#7544: *19 client closed connection while waiting for request, client: 192.168.1.138, server: 0.0.0.0:8089
+2018/08/30 11:24:10 [info] 2788#7544: *9 client 192.168.1.107 closed keepalive connection
+2018/08/30 11:24:10 [info] 2788#7544: *15 client 192.168.1.107 closed keepalive connection
+2018/08/30 11:34:30 [error] 2788#7544: *24 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1535600070_73, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:34:30 [error] 2788#7544: *24 [lua] cidMgr.lua:28: login_key(): key:pmrrMmRQayh6Zc9wLkJDQCPxuMr4/Q12NLTlXjjxkRI=, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:34:30 [error] 2788#7544: *26 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:34:30 [error] 2788#7544: *26 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:35:00 [error] 2788#7544: *24 [lua] main.lua:24: host:http://192.168.1.138:8082/login args.id:1, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=Bp9hkrMPH/hstIHr9K1NuxTRAgvytga1pbvtZcuM42U= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:35:00 [error] 2788#7544: *24 [lua] main.lua:32: res:{"status":0,"uid":2,"verifycode":"KBMPJFECYEIUDTFA"}
+ while sending to client, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=Bp9hkrMPH/hstIHr9K1NuxTRAgvytga1pbvtZcuM42U= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 11:35:01 [info] 2788#7544: *26 client 192.168.1.107 closed keepalive connection
+2018/08/30 11:35:31 [info] 2788#7544: *24 client 192.168.1.107 closed keepalive connection
+2018/08/30 13:39:33 [info] 2788#7544: *29 client 192.168.1.107 closed keepalive connection
+2018/08/30 13:39:40 [info] 2788#7544: *30 client 192.168.1.107 closed keepalive connection
+2018/08/30 14:04:51 [info] 2788#7544: *31 client 192.168.1.107 closed keepalive connection
+2018/08/30 16:08:33 [error] 2788#7544: *32 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1535616513_84, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 16:08:33 [error] 2788#7544: *32 [lua] cidMgr.lua:28: login_key(): key:+2yPJaYF14R+5E8BPokpXxCscYTn6CZ4KO2Ev7+U+g0=, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 16:08:33 [error] 2788#7544: *34 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 16:08:33 [error] 2788#7544: *34 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 16:08:35 [error] 2788#7544: *32 [lua] main.lua:24: host:http://192.168.1.138:8082/login args.id:1, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=aVE+/sKx/h88YvHS4sc9X5YxQJH3r/bVh2+Q23CxHRo= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 16:08:35 [error] 2788#7544: *32 [lua] main.lua:32: res:{"status":0,"uid":2,"verifycode":"TWXAKUUCDYQLTWUH"}
+ while sending to client, client: 192.168.1.107, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=aVE+/sKx/h88YvHS4sc9X5YxQJH3r/bVh2+Q23CxHRo= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/30 16:09:30 [info] 2788#7544: *32 client 192.168.1.107 closed keepalive connection
+2018/08/30 16:09:30 [info] 2788#7544: *34 client 192.168.1.107 closed keepalive connection
+2018/08/30 18:07:24 [info] 2788#7544: *37 client 192.168.1.107 closed keepalive connection
+2018/08/30 18:09:16 [info] 2788#7544: *39 client 192.168.1.107 closed keepalive connection
+2018/08/30 18:09:16 [info] 2788#7544: *38 client 192.168.1.107 closed keepalive connection
+2018/08/31 10:03:38 [error] 2788#7544: *40 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1535681018_76, client: 192.168.1.127, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:03:38 [error] 2788#7544: *40 [lua] cidMgr.lua:28: login_key(): key:LRubWus8Bn9QoUQTOY3Ln5gLPZsfSKfr7N1laau3MLw=, client: 192.168.1.127, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:03:38 [error] 2788#7544: *42 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 192.168.1.127, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:03:38 [error] 2788#7544: *42 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 192.168.1.127, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:03:40 [error] 2788#7544: *40 [lua] main.lua:24: host:http://192.168.1.138:8082/login args.id:1, client: 192.168.1.127, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=pFFrrm4zvcdnOXbwh2F4XHOMmbe3rHfGgyWRG5elQ6c= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:03:40 [error] 2788#7544: *40 [lua] main.lua:32: res:{"status":0,"uid":2,"verifycode":"ZOGWUILJYKTUNGKK"}
+ while sending to client, client: 192.168.1.127, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=pFFrrm4zvcdnOXbwh2F4XHOMmbe3rHfGgyWRG5elQ6c= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:04:08 [error] 2788#7544: *40 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1535681048_79, client: 192.168.1.127, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:04:08 [error] 2788#7544: *40 [lua] cidMgr.lua:28: login_key(): key:6dWvSb4CZr/c3OcvQoYZUVFJajxEYfMryQDXnOL5Mqw=, client: 192.168.1.127, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:04:08 [error] 2788#7544: *42 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 192.168.1.127, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:04:08 [error] 2788#7544: *42 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 192.168.1.127, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:04:12 [error] 2788#7544: *40 [lua] main.lua:24: host:http://192.168.1.138:8082/login args.id:1, client: 192.168.1.127, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=2EtX5N/LEEQ/RwT3C0yEMSAR4671Ll1p7ZAwjvW4lKI= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:04:12 [error] 2788#7544: *40 [lua] main.lua:32: res:{"status":0,"uid":2,"verifycode":"JIJMBLRSSTDNOKAW"}
+ while sending to client, client: 192.168.1.127, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=2EtX5N/LEEQ/RwT3C0yEMSAR4671Ll1p7ZAwjvW4lKI= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:05:00 [info] 2788#7544: *40 client 192.168.1.127 closed keepalive connection
+2018/08/31 10:05:00 [info] 2788#7544: *42 client 192.168.1.127 closed keepalive connection
+2018/08/31 10:08:38 [error] 2788#7544: *47 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1535681318_67, client: 192.168.1.127, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:08:38 [error] 2788#7544: *47 [lua] cidMgr.lua:28: login_key(): key:FdqJ5otbxSRwx2YRyJbi/l5DcCJQID5TTupBY9ehDBI=, client: 192.168.1.127, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:08:38 [error] 2788#7544: *49 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 192.168.1.127, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:08:38 [error] 2788#7544: *49 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 192.168.1.127, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:08:39 [error] 2788#7544: *47 [lua] main.lua:24: host:http://192.168.1.138:8082/login args.id:1, client: 192.168.1.127, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=ISh/v8+sR2Y54c7G/2uWZ/BXeO9CfMykLsVENnB7qQY= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:08:39 [error] 2788#7544: *47 [lua] main.lua:32: res:{"status":0,"uid":2,"verifycode":"ZQOWZASNYMPZOPXW"}
+ while sending to client, client: 192.168.1.127, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=ISh/v8+sR2Y54c7G/2uWZ/BXeO9CfMykLsVENnB7qQY= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:09:29 [info] 2788#7544: *47 client 192.168.1.127 closed keepalive connection
+2018/08/31 10:09:29 [info] 2788#7544: *49 client 192.168.1.127 closed keepalive connection
+2018/08/31 10:38:33 [error] 2788#7544: *52 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1535683113_66, client: 192.168.1.116, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:38:33 [error] 2788#7544: *52 [lua] cidMgr.lua:28: login_key(): key:DuphYiDJF6N4/d0IGBUzQBOCK7ssc+ObAjF9gpWI8kQ=, client: 192.168.1.116, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:38:33 [error] 2788#7544: *54 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 192.168.1.116, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:38:33 [error] 2788#7544: *54 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 192.168.1.116, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:38:35 [error] 2788#7544: *52 [lua] main.lua:24: host:http://192.168.1.138:8082/login args.id:1, client: 192.168.1.116, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=fzrwsVAqWIqgj43JoezrrfqaWSsOReam8s2cgiRqKz8= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:38:35 [error] 2788#7544: *52 [lua] main.lua:32: res:{"status":0,"uid":2,"verifycode":"SRBNKDFNCHMXPEVK"}
+ while sending to client, client: 192.168.1.116, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=fzrwsVAqWIqgj43JoezrrfqaWSsOReam8s2cgiRqKz8= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/08/31 10:39:27 [info] 2788#7544: *52 client 192.168.1.116 closed keepalive connection
+2018/08/31 10:39:27 [info] 2788#7544: *54 client 192.168.1.116 closed keepalive connection
+2018/08/31 10:47:19 [notice] 3292#4824: signal process started
+2018/08/31 10:47:19 [notice] 5860#1672: shutting down
+2018/08/31 10:47:19 [notice] 2788#14124: gracefully shutting down
+2018/08/31 10:47:19 [notice] 2788#10896: exiting
+2018/08/31 10:47:19 [notice] 2788#7544: exiting
+2018/08/31 10:47:19 [notice] 2788#14124: exit
+2018/08/31 10:47:19 [notice] 5860#1672: worker process 2788 exited with code 0
+2018/08/31 10:47:19 [notice] 5860#1672: exit
+2018/08/31 10:47:27 [notice] 12020#7864: signal process started
+2018/08/31 10:47:27 [error] 12020#7864: CreateFile() ".\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/09/04 16:51:17 [notice] 21236#21252: using the "select" event method
+2018/09/04 16:51:17 [notice] 21236#21252: openresty/1.13.6.2
+2018/09/04 16:51:17 [info] 21236#21252: OS: 300000 build:17134, "", suite:100, type:1
+2018/09/04 16:51:17 [notice] 21236#21252: start worker processes
+2018/09/04 16:51:17 [notice] 21236#21252: start worker process 21284
+2018/09/04 16:51:17 [notice] 21284#21288: openresty/1.13.6.2
+2018/09/04 16:51:17 [info] 21284#21288: OS: 300000 build:17134, "", suite:100, type:1
+2018/09/04 16:51:17 [notice] 21284#21288: create thread 21312
+2018/09/04 16:51:17 [notice] 21284#21288: create thread 21340
+2018/09/04 16:51:17 [notice] 21284#21288: create thread 21356
+2018/09/04 17:02:24 [error] 21284#21312: *1 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1536051744_85, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:02:24 [error] 21284#21312: *1 [lua] cidMgr.lua:28: login_key(): key:FMuVxklAyDFHgnqgYNGnmf6YK0pa3R1LojvURN22PsI=, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:02:25 [error] 21284#21312: *3 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:02:25 [error] 21284#21312: *3 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:02:26 [error] 21284#21312: *1 [lua] main.lua:24: host:http://192.168.1.138:8082/login args.id:1, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=CoF/eSdU+BwaFMxS8a4sfYbDI3mMrBnP9xNa2AuqAs4= HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:02:26 [error] 21284#21312: *1 [lua] main.lua:32: res:{"status":0,"uid":2,"verifycode":"DYGAQWJLHMFDVHHB"}
+ while sending to client, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=CoF/eSdU+BwaFMxS8a4sfYbDI3mMrBnP9xNa2AuqAs4= HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:02:55 [info] 21284#21312: *3 client 192.168.1.93 closed keepalive connection
+2018/09/04 17:02:57 [info] 21284#21312: *1 client 192.168.1.93 closed keepalive connection
+2018/09/04 17:03:38 [error] 21284#21312: *6 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1536051818_83, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:03:38 [error] 21284#21312: *6 [lua] cidMgr.lua:28: login_key(): key:iFDolyfEBOurJbpt81hhefIjlvoNPBAigJU5kQl8mMI=, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:03:38 [error] 21284#21312: *8 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:03:38 [error] 21284#21312: *8 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:03:40 [error] 21284#21312: *6 [lua] main.lua:24: host:http://192.168.1.138:8082/login args.id:1, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=A7iMmE4Kj7c+hyIMUffZXleQ3wNCWgV1manCcbkLUho= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:03:40 [error] 21284#21312: *6 [lua] main.lua:32: res:{"status":0,"uid":2,"verifycode":"IPLFBGMUMSFNPWBJ"}
+ while sending to client, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=A7iMmE4Kj7c+hyIMUffZXleQ3wNCWgV1manCcbkLUho= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:04:11 [info] 21284#21312: *11 client 192.168.1.93 closed keepalive connection
+2018/09/04 17:04:35 [info] 21284#21312: *6 client 192.168.1.93 closed keepalive connection
+2018/09/04 17:04:35 [info] 21284#21312: *8 client 192.168.1.93 closed keepalive connection
+2018/09/04 17:06:15 [error] 21284#21312: *12 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1536051975_80, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:06:15 [error] 21284#21312: *12 [lua] cidMgr.lua:28: login_key(): key:izh8Chktzg/DvzQmJbEibtxw8H/6FAaJVQBSwcx2tTE=, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:06:15 [error] 21284#21312: *14 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:06:15 [error] 21284#21312: *14 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:06:16 [error] 21284#21312: *12 [lua] main.lua:24: host:http://192.168.1.138:8082/login args.id:1, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=wOEOnCgppMWGanZtvYjEhF+aCLFf24vnmWnw6npS9ys= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:06:16 [error] 21284#21312: *12 [lua] main.lua:32: res:{"status":0,"uid":2,"verifycode":"TSAGDFOZGXCCMKTO"}
+ while sending to client, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=wOEOnCgppMWGanZtvYjEhF+aCLFf24vnmWnw6npS9ys= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:07:13 [info] 21284#21312: *12 client 192.168.1.93 closed keepalive connection
+2018/09/04 17:07:13 [info] 21284#21312: *14 client 192.168.1.93 closed keepalive connection
+2018/09/04 17:19:02 [error] 21284#21312: *17 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1536052742_84, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:19:02 [error] 21284#21312: *17 [lua] cidMgr.lua:28: login_key(): key:LSr5qM8M8L8P9vgWdkK7XOe0bQu8sZIxpVcvxfAC9Fo=, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:19:02 [error] 21284#21312: *19 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:19:02 [error] 21284#21312: *19 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:19:55 [info] 21284#21312: *17 client 192.168.1.93 closed keepalive connection
+2018/09/04 17:19:55 [info] 21284#21312: *19 client 192.168.1.93 closed keepalive connection
+2018/09/04 17:41:30 [info] 21284#21312: *20 client 192.168.1.93 closed keepalive connection
+2018/09/04 17:41:52 [error] 21284#21312: *21 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1536054112_67, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:41:52 [error] 21284#21312: *21 [lua] cidMgr.lua:28: login_key(): key:rgXieZotQ8eG9zxNkqqOanVDZlQnaIJFg1AC2belXts=, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:41:52 [error] 21284#21312: *23 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:41:52 [error] 21284#21312: *23 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:41:54 [error] 21284#21312: *21 [lua] main.lua:24: host:http://192.168.1.138:8082/login args.id:1, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=rL685hPAd8/vR0CwH9KcaD2nUTZLUMe5OtXKeZBHm9U= HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:41:54 [error] 21284#21312: *21 [lua] main.lua:32: res:{"status":0,"uid":2,"verifycode":"ZCOHXWNWHVEJMLKW"}
+ while sending to client, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=rL685hPAd8/vR0CwH9KcaD2nUTZLUMe5OtXKeZBHm9U= HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:42:23 [info] 21284#21312: *23 client 192.168.1.93 closed keepalive connection
+2018/09/04 17:42:24 [info] 21284#21312: *21 client 192.168.1.93 closed keepalive connection
+2018/09/04 17:42:55 [error] 21284#21312: *26 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1536054175_82, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:42:55 [error] 21284#21312: *26 [lua] cidMgr.lua:28: login_key(): key:5Y3Fwhq7FukD6CxR0//VAuzbPhUliqDsgDL0qSDE3do=, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:42:56 [error] 21284#21312: *28 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:42:56 [error] 21284#21312: *28 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:42:57 [error] 21284#21312: *26 [lua] main.lua:24: host:http://192.168.1.138:8082/login args.id:1, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=oDhduKWwFDt+896XSXHxtM/axuoSa2CCXB7agLkQ8hQ= HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:42:57 [error] 21284#21312: *26 [lua] main.lua:32: res:{"status":0,"uid":2,"verifycode":"DUKSRVDYYJOMSNWM"}
+ while sending to client, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=oDhduKWwFDt+896XSXHxtM/axuoSa2CCXB7agLkQ8hQ= HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:43:26 [info] 21284#21312: *28 client 192.168.1.93 closed keepalive connection
+2018/09/04 17:43:27 [info] 21284#21312: *26 client 192.168.1.93 closed keepalive connection
+2018/09/04 17:47:36 [error] 21284#21312: *31 [lua] cidMgr.lua:15: create_verifycode(): verifycode:12_1536054456_73, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=self&acc=2&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:47:36 [error] 21284#21312: *31 [lua] cidMgr.lua:28: login_key(): key:CfrmHDXqmehMF304OtHBE23zfdhKa8JeqkDORk0gzfM=, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=self&acc=2&pw=123456 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:47:36 [error] 21284#21312: *33 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=12, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=12 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:47:36 [error] 21284#21312: *33 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":12,"info":"","cn":"","id":2,"list":"[1]"}], client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=12 HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:47:37 [error] 21284#21312: *31 [lua] main.lua:24: host:http://192.168.1.138:8082/login args.id:1, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=12&id=1&key=kTvLszu0IxcLp0hPoXJ470omCMImgvVLFwYXk4UULvM= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:47:37 [error] 21284#21312: *31 [lua] main.lua:32: res:{"status":0,"uid":3,"verifycode":"WSHZUSFEWTBGNLWF"}
+ while sending to client, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=12&id=1&key=kTvLszu0IxcLp0hPoXJ470omCMImgvVLFwYXk4UULvM= HTTP/1.1", host: "192.168.1.138:8089", referrer: "http://127.0.0.1:8000/"
+2018/09/04 17:48:07 [info] 21284#21312: *33 client 192.168.1.93 closed keepalive connection
+2018/09/04 17:48:38 [info] 21284#21312: *31 client 192.168.1.93 closed keepalive connection
+2018/09/04 17:56:07 [error] 21284#21312: *36 [lua] cidMgr.lua:15: create_verifycode(): verifycode:11_1536054967_84, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:56:07 [error] 21284#21312: *36 [lua] cidMgr.lua:28: login_key(): key:W4sO8X4UzwLeVFjaDjG5zPlOzDk9de79JYYqOyBA8uI=, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=self&acc=1&pw=123456 HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:56:07 [error] 21284#21312: *38 [lua] get_svr_history.lua:15: get_history(): sql:SELECT * FROM record WHERE cid=11, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:56:07 [error] 21284#21312: *38 [lua] get_svr_history.lua:16: get_history(): result:[{"cid":11,"info":"","cn":"","id":1,"list":"[1]"}], client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=get_svr_history&cn=self&cid=11 HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:56:10 [error] 21284#21312: *36 [lua] main.lua:24: host:http://192.168.1.138:8082/login args.id:1, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=0wfbFTHzZBFz8UTd7wnCaN54pbOM7ZmCuFqfKgwC0n8= HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:56:10 [error] 21284#21312: *36 [lua] main.lua:32: res:{"status":0,"uid":2,"verifycode":"EGFQTCOHUCAWOCSN"}
+ while sending to client, client: 192.168.1.93, server: 127.0.0.1, request: "GET /login?type=choose&cn=self&cid=11&id=1&key=0wfbFTHzZBFz8UTd7wnCaN54pbOM7ZmCuFqfKgwC0n8= HTTP/1.1", host: "192.168.1.138:8089"
+2018/09/04 17:56:38 [info] 21284#21312: *38 client 192.168.1.93 closed keepalive connection
+2018/09/04 17:56:40 [info] 21284#21312: *36 client 192.168.1.93 closed keepalive connection

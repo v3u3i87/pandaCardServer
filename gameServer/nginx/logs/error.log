@@ -1,0 +1,616 @@
+2018/08/24 23:07:41 [notice] 18108#17640: using the "select" event method
+2018/08/24 23:07:41 [notice] 18108#17640: openresty/1.13.6.2
+2018/08/24 23:07:41 [info] 18108#17640: OS: 300000 build:17134, "", suite:100, type:1
+2018/08/24 23:07:41 [notice] 18108#17640: start worker processes
+2018/08/24 23:07:41 [notice] 18108#17640: start worker process 13284
+2018/08/24 23:07:42 [notice] 13284#12468: openresty/1.13.6.2
+2018/08/24 23:07:42 [info] 13284#12468: OS: 300000 build:17134, "", suite:100, type:1
+2018/08/24 23:07:42 [notice] 13284#12468: create thread 14920
+2018/08/24 23:07:42 [notice] 13284#12468: create thread 5912
+2018/08/24 23:07:42 [notice] 13284#12468: create thread 16604
+2018/08/24 23:23:32 [notice] 17748#17256: signal process started
+2018/08/24 23:23:32 [error] 17748#17256: OpenEvent("Global\ngx_quit_18108") failed (2: The system cannot find the file specified)
+2018/08/24 23:23:40 [notice] 15256#12496: using the "select" event method
+2018/08/24 23:23:40 [notice] 15256#12496: openresty/1.13.6.2
+2018/08/24 23:23:40 [info] 15256#12496: OS: 300000 build:17134, "", suite:100, type:1
+2018/08/24 23:23:40 [notice] 15256#12496: start worker processes
+2018/08/24 23:23:40 [notice] 15256#12496: start worker process 2316
+2018/08/24 23:23:40 [notice] 2316#16768: openresty/1.13.6.2
+2018/08/24 23:23:40 [info] 2316#16768: OS: 300000 build:17134, "", suite:100, type:1
+2018/08/24 23:23:40 [notice] 2316#16768: create thread 16876
+2018/08/24 23:23:40 [notice] 2316#16768: create thread 15056
+2018/08/24 23:23:40 [notice] 2316#16768: create thread 13300
+2018/08/24 23:23:57 [error] 2316#16876: *3 [lua] connect.lua:8: __init(): init onnect, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:57 [error] 2316#16876: *3 [lua] main.lua:5: begin start ws ----, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:57 [error] 2316#16876: *3 [lua] connect.lua:122: run(): run 0, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:57 [error] 2316#16876: *3 [lua] connect.lua:125: run(): run 1, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:57 [error] 2316#16876: *3 [lua] connect.lua:136: run(): run 2, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:57 [error] 2316#16876: *3 [lua] global.lua:9: __init(): global init0, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:57 [error] 2316#16876: *3 [lua] global.lua:18: _old_init(): old global init1, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:57 [error] 2316#16876: *3 [lua] config.lua:112: init(): old config init1, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:57 [error] 2316#16876: *3 [lua] config.lua:116: init(): old config init2, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:57 [error] 2316#16876: *3 [lua] config.lua:124: init(): old config init3, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:57 [error] 2316#16876: *3 [lua] global.lua:21: _old_init(): old global init1, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:57 [error] 2316#16876: *3 [lua] global.lua:25: _old_init(): old global init1, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:58 [error] 2316#16876: *3 [lua] global.lua:29: _old_init(): old global init1, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:58 [error] 2316#16876: *3 [lua] global.lua:33: _old_init(): old global init1, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:58 [error] 2316#16876: *3 [lua] global.lua:11: __init(): global init1, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:58 [error] 2316#16876: *3 [lua] global.lua:13: __init(): global init2, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:58 [error] 2316#16876: *3 [lua] global.lua:16: __init(): global init3, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:58 [error] 2316#16876: *3 [lua] global.lua:19: __init(): global init4, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:59 [error] 2316#16876: *3 [lua] global.lua:22: __init(): global init5, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:59 [error] 2316#16876: *3 [lua] global.lua:25: __init(): global init6, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:59 [error] 2316#16876: *3 [lua] global.lua:31: __init(): global init7, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:59 [error] 2316#16876: *3 [lua] connect.lua:138: run(): run 3, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:23:59 [error] 2316#16876: *3 [lua] connect.lua:143: run(): run 4, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/24 23:24:58 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:25:58 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:26:58 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:27:58 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:28:58 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:29:58 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:30:58 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:31:58 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:32:58 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:33:59 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:1ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:34:59 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:35:59 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:36:59 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:37:59 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:38:59 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:39:59 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:40:59 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:41:59 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:42:59 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:43:59 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:44:59 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:45:59 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:46:59 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:47:59 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:48:59 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:49:59 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:51:00 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:1ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:52:00 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:53:00 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:54:00 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:55:00 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:56:00 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:57:00 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:58:00 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/24 23:59:00 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:00:00 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:01:00 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:02:00 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:03:00 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:04:00 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:05:00 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:06:00 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:07:01 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:1ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:08:01 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:09:01 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:10:01 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:11:01 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:12:01 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:13:04 [error] 2316#16876: *4 [lua] db.lua:94: excute(): =====>excute sql error:failed to receive packet header: timeoutsql: INSERT INTO `role` (`id`,`uid`,`rname`,`logouttime`,`base`,`commanders`,`soldiers`,`depot`,`knapsack`,`army`,`tasklist`,`friends`,`research`,`extend`,`arsenal`,`boss`,`virtual`,`explore`,`mailbox`,`arena`,`replica`,`alliancegirl`,`both`,`resource`,`shop`,`activitylist`,`guid`) VALUES ('1','2','罗伯特·纳尔逊','1535124239','{\"mchange\":0,\"vipitem\":{},\"msign\":1,\"wins\":28,\"fund\":0,\"mreward\":1,\"vipexp\":0,\"consumer_day\":0,\"gt\":1535126400,\"stage\":\"STAGE017\",\"mln\":2,\"diamond\":105,\"money\":104211375,\"m_card_count\":0,\"give\":0,\"act_opt\":{\"5001\":2,\"2201\":2},\"lev\":17,\"cn\":1,\"m_card_time\":0,\"vip\":0,\"onlinetime\":771,\"o_onlinetime\":598,\"fast\":1,\"receive\":0,\"cln\":2,\"exp\":39150,\"h_card_count\":0,\"fundreward\":{},\"fight\":8890,\"pay_day\":0,\"count\":{}}','{\"101\":{\"ws\":{\"vehicle1\":1},\"car\":{},\"mrb\":0,\"mrn\":0,\"mr\":1,\"cost\":[20897570,0],\"lcar\":0,\"j\":1,\"w\":\"vehicle1\",\"cd\":{\"112\":1535126820,\"109\":1535126072,\"108\":1535124297},\"s\":{\"105\":1,\"103\":1,\"106\":1,\"102\":1,\"110\":1,\"111\":1,\"101\":140,\"107\":1,\"112\":1,\"104\":1,\"108\":3,\"109\":2},\"p\":\"ZHG001\"}}','{\"1019\":{\"m\":0,\"q\":0,\"n\":1,\"cost\":[14953000,0],\"badge\":0,\"j\":1,\"w\":0,\"eq\":[0,0,0,0],\"sq\":0,\"l\":13,\"p\":1019},\"1017\":{\"m\":0,\"q\":0,\"n\":1,\"cost\":{},\"badge\":0,\"j\":0,\"w\":0,\"eq\":[0,0,0,0],\"sq\":0,\"l\":1,\"p\":1017},\"1028\":{\"m\":0,\"q\":0,\"n\":1,\"cost\":{},\"badge\":0,\"j\":0,\"w\":0,\"eq\":[0,0,0,0],\"sq\":0,\"l\":1,\"p\":1028},\"1037\":{\"m\":0,\"q\":0,\"n\":1,\"cost\":{},\"badge\":0,\"j\":0,\"w\":0,\"eq\":[0,0,0,0],\"sq\":0,\"l\":1,\"p\":1037},\"1059\":{\"m\":0,\"q\":0,\"n\":1,\"cost\":{},\"badge\":0,\"j\":0,\"w\":0,\"eq\":[0,0,0,0],\"sq\":0,\"l\":1,\"p\":1059},\"1051\":{\"m\":0,\"q\":1,\"n\":1,\"cost\":{\"1\":14983000,\"2\":0,\"22015\":60},\"badge\":0,\"j\":1,\"w\":0,\"eq\":[0,0,0,0],\"sq\":0,\"l\":13,\"p\":1051},\"1007\":{\"m\":0,\"q\":0,\"n\":2,\"cost\":{},\"badge\":0,\"j\":0,\"w\":0,\"eq\":[0,0,0,0],\"sq\":0,\"l\":1,\"p\":1007},\"1005\":{\"m\":0,\"q\":0,\"n\":1,\"cost\":[86739000,0],\"badge\":0,\"j\":1,\"w\":0,\"eq\":[0,0,0,0],\"sq\":0,\"l\":17,\"p\":1005},\"1011\":{\"m\":0,\"q\":1,\"n\":1,\"cost\":{\"1\":14983000,\"2\":0,\"22015\":60},\"badge\":0,\"j\":1,\"w\":0,\"eq\":[0,0,0,0],\"sq\":0,\"l\":13,\"p\":1011},\"1035\":{\"m\":0,\"q\":0,\"n\":1,\"cost\":{},\"badge\":0,\"j\":0,\"w\":0,\"eq\":[0,0,0,0],\"sq\":0,\"l\":1,\"p\":1035},\"1079\":{\"m\":0,\"q\":1,\"n\":1,\"cost\":{\"1\":14983000,\"2\":0,\"22015\":60},\"badge\":0,\"j\":1,\"w\":0,\"eq\":[0,0,0,0],\"sq\":0,\"l\":13,\"p\":1079}}','{\"105\":{\"rn\":0,\"sn\":25,\"u\":2,\"cost\":[4423000,0],\"s\":26,\"d\":0,\"e\":0,\"r\":0,\"p\":20003},\"103\":{\"rn\":0,\"sn\":25,\"u\":2,\"cost\":[4423000,0],\"s\":26,\"d\":0,\"e\":0,\"r\":0,\"p\":20004},\"104\":{\"rn\":0,\"sn\":25,\"u\":1,\"cost\":[4423000,0],\"s\":26,\"d\":0,\"e\":0,\"r\":0,\"p\":20001},\"102\":{\"rn\":0,\"sn\":25,\"u\":1,\"cost\":[4423000,0],\"s\":26,\"d\":0,\"e\":0,\"r\":0,\"p\":20004},\"101\":{\"rn\":0,\"sn\":25,\"u\":1,\"cost\":[4423000,0],\"s\":26,\"d\":0,\"e\":0,\"r\":0,\"p\":20003}}','{\"21002\":3,\"5\":3,\"4\":1,\"9\":13,\"21004\":3,\"21003\":3,\"108\":6,\"22012\":10,\"21001\":6,\"2002\":20,\"22016\":130}','{\"companion\":[-1,-1,-1,-1,-1,-1,-1,-1],\"battle\":[1011,1051,1079,1019,1005,-1,-1,-1],\"em\":[4,2,3,1,5,6,7,8],\"commander\":101,\"equips\":[[0,0,104,0,101,102],[0,0,0,0,105,103],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0]]}','{\"1\":{\"p\":1,\"g\":0,\"s\":1,\"et\":1535212800},\"2\":{\"p\":2,\"g\":0,\"s\":1,\"et\":1535212800},\"3\":{\"p\":3,\"g\":0,\"s\":1,\"et\":1535212800},\"4\":{\"p\":4,\"g\":16,\"s\":2,\"et\":1535212800},\"6\":{\"p\":6,\"g\":0,\"s\":1,\"et\":1535212800},\"7\":{\"p\":7,\"g\":4,\"s\":3,\"et\":1535212800},\"8\":{\"p\":8,\"g\":0,\"s\":1,\"et\":1535212800},\"9\":{\"p\":9,\"g\":0,\"s\":1,\"et\":1535212800},\"10\":
+2018/08/25 00:13:04 [error] 2316#16876: *4 [lua] roleMgr.lua:157: save(): =====>save role data error, context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:13:06 [error] 2316#16876: *7 [lua] db.lua:94: excute(): =====>excute sql error:failed to receive packet header: timeoutsql: INSERT INTO `log` (`id`,`request_time`,`return_time`,`task`,`content`,`status`,`result`,`role_id`,`client_ip`) VALUES ('445','1535127174','1535127174','stage.pass','{\"task\":\"stage.pass\",\"id\":\"STAGE017\",\"lev\":1,\"isboss\":0,\"win\":1}','0','{\"time\":1535127174,\"task\":\"stage.pass\",\"status\":0}','2','127.0.0.1'),('444','1535127172','1535127172','research.nomorlone','{\"task\":\"research.nomorlone\"}','0','{\"time\":1535127172,\"task\":\"research.nomorlone\",\"data\":{\"1007\":1},\"status\":0}','2','127.0.0.1'),('448','1535127180','1535127180','research.nomorlone','{\"task\":\"research.nomorlone\"}','0','{\"time\":1535127180,\"task\":\"research.nomorlone\",\"data\":{\"1028\":1},\"status\":0}','2','127.0.0.1'),('449','1535127180','1535127180','stage.pass','{\"task\":\"stage.pass\",\"id\":\"STAGE017\",\"lev\":1,\"isboss\":0,\"win\":1}','0','{\"time\":1535127180,\"task\":\"stage.pass\",\"status\":0}','2','127.0.0.1'),('431','1535127124','1535127124','soldier.levelup','{\"task\":\"soldier.levelup\",\"id\":1005,\"count\":5}','0','{\"time\":1535127124,\"task\":\"soldier.levelup\",\"data\":5,\"status\":0}','2','127.0.0.1'),('430','1535127123','1535127123','soldier.levelup','{\"task\":\"soldier.levelup\",\"id\":1005,\"count\":5}','0','{\"time\":1535127123,\"task\":\"soldier.levelup\",\"data\":5,\"status\":0}','2','127.0.0.1'),('429','1535127122','1535127122','stage.pass','{\"task\":\"stage.pass\",\"id\":\"STAGE017\",\"lev\":1,\"isboss\":0,\"win\":1}','0','{\"time\":1535127122,\"task\":\"stage.pass\",\"status\":0}','2','127.0.0.1'),('435','1535127136','1535127136','stage.pass','{\"task\":\"stage.pass\",\"id\":\"STAGE017\",\"lev\":1,\"isboss\":0,\"win\":1}','0','{\"time\":1535127136,\"task\":\"stage.pass\",\"status\":0}','2','127.0.0.1'),('434','1535127129','1535127129','stage.pass','{\"task\":\"stage.pass\",\"id\":\"STAGE017\",\"lev\":1,\"isboss\":0,\"win\":1}','0','{\"time\":1535127129,\"task\":\"stage.pass\",\"status\":0}','2','127.0.0.1'),('433','1535127125','1535127125','soldier.levelup','{\"task\":\"soldier.levelup\",\"id\":1005,\"count\":1}','0','{\"time\":1535127125,\"task\":\"soldier.levelup\",\"data\":1,\"status\":0}','2','127.0.0.1'),('432','1535127124','1535127124','soldier.levelup','{\"task\":\"soldier.levelup\",\"id\":1005,\"count\":5}','0','{\"time\":1535127124,\"task\":\"soldier.levelup\",\"data\":5,\"status\":0}','2','127.0.0.1'),('439','1535127160','1535127160','stage.pass','{\"task\":\"stage.pass\",\"id\":\"STAGE017\",\"lev\":1,\"isboss\":0,\"win\":1}','0','{\"time\":1535127160,\"task\":\"stage.pass\",\"status\":0}','2','127.0.0.1'),('438','1535127152','1535127152','stage.pass','{\"task\":\"stage.pass\",\"id\":\"STAGE017\",\"lev\":1,\"isboss\":0,\"win\":1}','0','{\"time\":1535127152,\"task\":\"stage.pass\",\"status\":0}','2','127.0.0.1'),('437','1535127151','1535127151','knapsack.use','{\"task\":\"knapsack.use\",\"id\":22137,\"num\":2,\"pos\":1}','0','{\"time\":1535127151,\"task\":\"knapsack.use\",\"data\":[{\"2002\":5},{\"2002\":5}],\"status\":0}','2','127.0.0.1'),('436','1535127143','1535127143','stage.pass','{\"task\":\"stage.pass\",\"id\":\"STAGE017\",\"lev\":1,\"isboss\":0,\"win\":1}','0','{\"time\":1535127143,\"task\":\"stage.pass\",\"status\":0}','2','127.0.0.1'),('443','1535127169','1535127169','research.nomorlone','{\"task\":\"research.nomorlone\"}','0','{\"time\":1535127169,\"task\":\"research.nomorlone\",\"data\":{\"1017\":1},\"status\":0}','2','127.0.0.1'),('442','1535127167','1535127167','research.nomorlone','{\"task\":\"research.nomorlone\"}','0','{\"time\":1535127167,\"task\":\"research.nomorlone\",\"data\":{\"1037\":1},\"status\":0}','2','127.0.0.1'),('441','1535127167','1535127167','stage.pass','{\"task\":\"stage.pass\",\"id\":\"STAGE017\",\"lev\":1,\"isboss\":0,\"win\":1}','0','{\"time\":1535127167,\"task\":\"stage.pass\",\"status\":0}','2','127.0.0.1'),('440','1535127165','1535127165','research.nomorlone','{\"task\":\"research.nomorlone\"}','0'
+2018/08/25 00:14:04 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:15:04 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:16:04 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:17:04 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:18:04 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:19:04 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:20:04 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:21:04 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:22:05 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:1ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:23:05 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:24:05 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:25:05 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:26:05 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:27:05 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:28:05 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:29:05 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:30:05 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:31:05 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:32:05 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:33:05 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:34:05 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:35:05 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:36:05 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:37:06 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:1ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:38:06 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:39:06 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:40:06 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:41:06 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:42:06 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:43:06 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:44:06 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/25 00:44:51 [error] 2316#16876: *3 [lua] connect.lua:146: run(): client init truenil while sending to client, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/25 00:44:51 [error] 2316#16876: *3 [lua] main.lua:7: end start ws ---- while sending to client, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/25 00:44:51 [info] 2316#16876: *3 client prematurely closed connection (10053: An established connection was aborted by the software in your host machine) while sending to client, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/25 00:45:06 [notice] 2316#16876: *4 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:32:40 [notice] 3488#13904: using the "select" event method
+2018/08/28 15:32:40 [notice] 3488#13904: openresty/1.13.6.2
+2018/08/28 15:32:40 [info] 3488#13904: OS: 300000 build:17134, "", suite:100, type:1
+2018/08/28 15:32:40 [notice] 3488#13904: start worker processes
+2018/08/28 15:32:40 [notice] 3488#13904: start worker process 5220
+2018/08/28 15:32:40 [notice] 5220#8376: openresty/1.13.6.2
+2018/08/28 15:32:40 [info] 5220#8376: OS: 300000 build:17134, "", suite:100, type:1
+2018/08/28 15:32:40 [notice] 5220#8376: create thread 5920
+2018/08/28 15:32:40 [notice] 5220#8376: create thread 10992
+2018/08/28 15:32:40 [notice] 5220#8376: create thread 9892
+2018/08/28 15:33:02 [error] 5220#5920: *3 [lua] connect.lua:8: __init(): init onnect, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:02 [error] 5220#5920: *3 [lua] main.lua:5: begin start ws ----, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:02 [error] 5220#5920: *3 [lua] connect.lua:122: run(): run 0, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:02 [error] 5220#5920: *3 [lua] connect.lua:125: run(): run 1, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:02 [error] 5220#5920: *3 [lua] connect.lua:136: run(): run 2, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:02 [error] 5220#5920: *3 [lua] global.lua:9: __init(): global init0, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:02 [error] 5220#5920: *3 [lua] global.lua:18: _old_init(): old global init1, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:02 [error] 5220#5920: *3 [lua] config.lua:112: init(): old config init1, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:02 [error] 5220#5920: *3 [lua] config.lua:116: init(): old config init2, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:02 [error] 5220#5920: *3 [lua] config.lua:124: init(): old config init3, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:02 [error] 5220#5920: *3 [lua] global.lua:21: _old_init(): old global init1, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:03 [error] 5220#5920: *3 [lua] global.lua:25: _old_init(): old global init1, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:03 [error] 5220#5920: *3 [lua] global.lua:29: _old_init(): old global init1, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:04 [error] 5220#5920: *3 [lua] global.lua:33: _old_init(): old global init1, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:04 [error] 5220#5920: *3 [lua] global.lua:11: __init(): global init1, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:04 [error] 5220#5920: *3 [lua] global.lua:13: __init(): global init2, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:04 [error] 5220#5920: *3 [lua] global.lua:16: __init(): global init3, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:04 [error] 5220#5920: *3 [lua] global.lua:19: __init(): global init4, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:04 [error] 5220#5920: *3 [lua] global.lua:22: __init(): global init5, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:04 [error] 5220#5920: *3 [lua] global.lua:25: __init(): global init6, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:04 [error] 5220#5920: *3 [lua] global.lua:31: __init(): global init7, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:04 [error] 5220#5920: *3 [lua] connect.lua:138: run(): run 3, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:33:04 [error] 5220#5920: *3 [lua] connect.lua:143: run(): run 4, client: 127.0.0.1, server: , request: "GET /game HTTP/1.1", host: "127.0.0.1:8082"
+2018/08/28 15:34:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:35:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:36:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:37:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:38:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:39:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:40:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:41:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:42:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:43:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:44:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:45:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:46:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:47:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:48:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:49:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:50:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:51:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:52:04 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:53:05 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:1ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:54:04 [error] 5220#5920: *13 lua entry thread aborted: runtime error: .\game\model\countMgr.lua:103: attempt to compare number with nil
+stack traceback:
+coroutine 0:
+	.\game\model\countMgr.lua: in function 'send'
+	.\game\global.lua:30: in function 'callback'
+	.\include\timer.lua:28: in function <.\include\timer.lua:24>, context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:54:05 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:55:05 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:56:05 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:57:05 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:58:05 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 15:59:05 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:00:05 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:01:05 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:02:05 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:03:05 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:04:05 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:05:05 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:06:05 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:07:05 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:08:05 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:09:06 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:1ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:10:06 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:11:06 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:12:06 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:13:06 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:14:06 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:15:06 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:16:06 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:17:06 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:18:06 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:19:06 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:20:06 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:21:06 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:22:06 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:23:06 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:24:06 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:25:06 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:26:06 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:27:07 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:1ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:28:10 [error] 5220#5920: *8 [lua] db.lua:94: excute(): =====>excute sql error:failed to receive packet header: timeoutsql: INSERT INTO `log` (`id`,`request_time`,`return_time`,`task`,`content`,`status`,`result`,`role_id`,`client_ip`) VALUES ('1183','1535444883','1535444883','stage.pass','{\"task\":\"stage.pass\",\"id\":\"STAGE026\",\"lev\":1,\"isboss\":0,\"win\":1}','0','{\"time\":1535444883,\"task\":\"stage.pass\",\"status\":0}','2','127.0.0.1'),('1182','1535444873','1535444873','stage.pass','{\"task\":\"stage.pass\",\"id\":\"STAGE026\",\"lev\":1,\"isboss\":0,\"win\":1}','0','{\"time\":1535444873,\"task\":\"stage.pass\",\"status\":0}','2','127.0.0.1'),('1181','1535444867','1535444867','stage.pass','{\"task\":\"stage.pass\",\"id\":\"STAGE026\",\"lev\":1,\"isboss\":0,\"win\":1}','0','{\"time\":1535444867,\"task\":\"stage.pass\",\"status\":0}','2','127.0.0.1'),('1176','1535444831','1535444831','stage.pass','{\"task\":\"stage.pass\",\"id\":\"STAGE026\",\"lev\":1,\"isboss\":0,\"win\":1}','0','{\"time\":1535444831,\"task\":\"stage.pass\",\"status\":0}','2','127.0.0.1'),('1180','1535444858','1535444858','stage.pass','{\"task\":\"stage.pass\",\"id\":\"STAGE026\",\"lev\":1,\"isboss\":0,\"win\":1}','0','{\"time\":1535444858,\"task\":\"stage.pass\",\"status\":0}','2','127.0.0.1'),('1179','1535444851','1535444851','stage.pass','{\"task\":\"stage.pass\",\"id\":\"STAGE026\",\"lev\":1,\"isboss\":0,\"win\":1}','0','{\"time\":1535444851,\"task\":\"stage.pass\",\"status\":0}','2','127.0.0.1'),('1178','1535444845','1535444845','stage.pass','{\"task\":\"stage.pass\",\"id\":\"STAGE026\",\"lev\":1,\"isboss\":0,\"win\":1}','0','{\"time\":1535444845,\"task\":\"stage.pass\",\"status\":0}','2','127.0.0.1'),('1177','1535444837','1535444837','stage.pass','{\"task\":\"stage.pass\",\"id\":\"STAGE026\",\"lev\":1,\"isboss\":0,\"win\":1}','0','{\"time\":1535444837,\"task\":\"stage.pass\",\"status\":0}','2','127.0.0.1') ON DUPLICATE KEY UPDATE `id`=VALUES(`id`),`request_time`=VALUES(`request_time`),`return_time`=VALUES(`return_time`),`task`=VALUES(`task`),`content`=VALUES(`content`),`status`=VALUES(`status`),`result`=VALUES(`result`),`role_id`=VALUES(`role_id`),`client_ip`=VALUES(`client_ip`), context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:28:10 [error] 5220#5920: *5 [lua] db.lua:94: excute(): =====>excute sql error:failed to receive packet header: timeoutsql: INSERT INTO `role` (`id`,`uid`,`rname`,`logouttime`,`base`,`commanders`,`soldiers`,`depot`,`knapsack`,`army`,`tasklist`,`friends`,`research`,`extend`,`arsenal`,`boss`,`virtual`,`explore`,`mailbox`,`arena`,`replica`,`alliancegirl`,`both`,`resource`,`shop`,`activitylist`,`guid`) VALUES ('1','2','罗伯特·纳尔逊','1535441584','{\"mchange\":0,\"vipitem\":{},\"msign\":2,\"wins\":428,\"fund\":1,\"mreward\":1,\"vipexp\":0,\"consumer_day\":0,\"pay_day\":0,\"stage\":\"STAGE026\",\"mln\":3,\"diamond\":1845,\"money\":466900349,\"m_card_count\":0,\"give\":0,\"act_opt\":{\"5001\":3,\"2201\":2,\"2301\":1},\"cn\":1,\"count\":{},\"m_card_time\":0,\"o_onlinetime\":2544,\"onlinetime\":3300,\"fight\":316085,\"fast\":0,\"receive\":0,\"cln\":3,\"h_card_count\":0,\"exp\":109730,\"fundreward\":{\"2\":1},\"vip\":0,\"lev\":25,\"gt\":1535385600}','{\"101\":{\"ws\":{\"vehicle1\":1},\"car\":{},\"mrb\":0,\"mrn\":0,\"mr\":1,\"cost\":[20897570,0],\"lcar\":0,\"j\":1,\"w\":\"vehicle1\",\"cd\":{\"112\":1535126820,\"108\":1535127267,\"109\":1535126072},\"s\":{\"105\":1,\"103\":1,\"106\":1,\"102\":1,\"110\":1,\"111\":1,\"101\":140,\"107\":1,\"112\":1,\"104\":1,\"108\":3,\"109\":2},\"p\":\"ZHG001\"}}','{\"1079\":{\"m\":0,\"q\":1,\"n\":1,\"cost\":{\"1\":14983000,\"2\":0,\"22015\":60},\"badge\":1535457600,\"j\":1,\"w\":0,\"eq\":[0,0,0,0],\"sq\":0,\"l\":13,\"p\":1079},\"1051\":{\"m\":0,\"q\":1,\"n\":1,\"cost\":{\"1\":14983000,\"2\":0,\"22015\":60},\"badge\":1535457600,\"j\":1,\"w\":0,\"eq\":[0,0,0,0],\"sq\":0,\"l\":13,\"p\":1051},\"1005\":{\"m\":0,\"q\":0,\"n\":1,\"cost\":[86739000,0],\"badge\":1535457600,\"j\":1,\"w\":0,\"eq\":[0,0,0,0],\"sq\":0,\"l\":17,\"p\":1005},\"1011\":{\"m\":0,\"q\":1,\"n\":1,\"cost\":{\"1\":14983000,\"2\":0,\"22015\":60},\"badge\":1535457600,\"j\":1,\"w\":0,\"eq\":[0,0,0,0],\"sq\":0,\"l\":13,\"p\":1011},\"1019\":{\"m\":0,\"q\":0,\"n\":1,\"cost\":[14953000,0],\"badge\":1535457600,\"j\":1,\"w\":0,\"eq\":[0,0,0,0],\"sq\":0,\"l\":13,\"p\":1019},\"1037\":{\"m\":0,\"q\":0,\"n\":1,\"cost\":{},\"badge\":1535457600,\"j\":0,\"w\":0,\"eq\":[0,0,0,0],\"sq\":0,\"l\":1,\"p\":1037}}','{\"105\":{\"rn\":0,\"sn\":33,\"u\":2,\"cost\":[12751000,0],\"s\":34,\"r\":0,\"p\":20003,\"d\":0,\"e\":0},\"101\":{\"rn\":0,\"sn\":33,\"u\":1,\"cost\":[12751000,0],\"s\":34,\"r\":0,\"p\":20003,\"d\":0,\"e\":0},\"106\":{\"rn\":0,\"sn\":0,\"u\":0,\"cost\":{},\"s\":1,\"d\":0,\"e\":0,\"r\":0,\"p\":20021},\"104\":{\"rn\":0,\"sn\":33,\"u\":1,\"cost\":[12751000,0],\"s\":34,\"r\":0,\"p\":20001,\"d\":0,\"e\":0},\"102\":{\"rn\":0,\"sn\":33,\"u\":1,\"cost\":[12751000,0],\"s\":34,\"r\":0,\"p\":20004,\"d\":0,\"e\":0},\"103\":{\"rn\":0,\"sn\":33,\"u\":2,\"cost\":[12751000,0],\"s\":34,\"r\":0,\"p\":20004,\"d\":0,\"e\":0}}','{\"21002\":3,\"5\":5,\"22011\":10,\"21003\":3,\"10\":2,\"9\":31,\"22015\":20,\"21004\":3,\"22016\":230,\"21001\":6,\"22012\":10,\"108\":5,\"2002\":20,\"4\":6}','{\"companion\":[-1,-1,-1,-1,-1,-1,-1,-1],\"battle\":[1011,1051,1079,1019,1005,-1,-1,-1],\"em\":[4,2,3,1,5,6,7,8],\"commander\":101,\"equips\":[[0,0,104,0,101,102],[0,0,0,0,105,103],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0]]}','{\"1\":{\"p\":1,\"g\":2,\"s\":3,\"et\":1535472000},\"2\":{\"p\":2,\"g\":0,\"s\":1,\"et\":1535472000},\"3\":{\"p\":3,\"g\":0,\"s\":1,\"et\":1535472000},\"4\":{\"p\":4,\"g\":0,\"s\":1,\"et\":1535472000},\"6\":{\"p\":6,\"g\":0,\"s\":1,\"et\":1535472000},\"7\":{\"p\":7,\"g\":4,\"s\":3,\"et\":1535472000},\"8\":{\"p\":8,\"g\":0,\"s\":1,\"et\":1535472000},\"9\":{\"p\":9,\"g\":0,\"s\":1,\"et\":1535472000},\"10\":{\"p\":10,\"g\":0,\"s\":1,\"et\":1535472000},\"11\":{\"p\":11,\"g\":0,\"s\":1,\"et\":1535472000},\"604\":{\"p\":604,\"g\":0,\"s\":1,\"et\":0},\"50001\":{\"p\":50001,\"g\":5,\"s\":1,\"et\":0},\"30001\":{\"p\":30001,\"g\":0,\"s\":1,\"et\":0},\"80001\":{\"p\":80001,\"g\":5,\"s\":1,\"et\":0},\"60001\":{\"p\":60001,\"g\":0,\"s\":1,\"et\":0},\"110006\":{\"p\":110006,\"g\":26,\"s\":1,\"et\":0},\
+2018/08/28 16:28:10 [error] 5220#5920: *5 [lua] roleMgr.lua:157: save(): =====>save role data error, context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:29:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:30:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:31:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:32:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:33:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:34:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:35:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:36:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:37:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:38:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:39:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:40:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:41:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:42:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:43:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:44:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:45:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:46:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:47:10 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:48:11 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:1ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:49:11 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:50:11 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:51:11 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:52:11 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:53:11 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:54:11 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:55:11 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:56:11 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:57:11 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:58:11 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 16:58:35 [notice] 11016#12420: signal process started
+2018/08/28 16:58:35 [notice] 3488#13904: shutting down
+2018/08/28 16:58:35 [notice] 5220#8376: gracefully shutting down
+2018/08/28 16:58:35 [notice] 5220#10992: exiting
+2018/08/28 16:59:11 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 17:00:12 [notice] 5220#5920: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:1ms , context: ngx.timer, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/08/28 17:49:11 [notice] 3488#13904: worker process 5220 exited with code 1
+2018/08/28 17:49:11 [notice] 3488#13904: exit
+2018/08/29 10:06:11 [notice] 10952#11672: using the "select" event method
+2018/08/29 10:06:11 [notice] 10952#11672: openresty/1.13.6.2
+2018/08/29 10:06:11 [info] 10952#11672: OS: 300000 build:17134, "", suite:100, type:1
+2018/08/29 10:06:11 [notice] 10952#11672: start worker processes
+2018/08/29 10:06:11 [notice] 10952#11672: start worker process 11524
+2018/08/29 10:06:11 [notice] 11524#4956: openresty/1.13.6.2
+2018/08/29 10:06:11 [info] 11524#4956: OS: 300000 build:17134, "", suite:100, type:1
+2018/08/29 10:06:11 [notice] 11524#4956: create thread 7644
+2018/08/29 10:06:11 [notice] 11524#4956: create thread 5788
+2018/08/29 10:06:11 [notice] 11524#4956: create thread 5568
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] main.lua:5: begin start ws ----, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] connect.lua:122: run(): run 0, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] connect.lua:125: run(): run 1, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] connect.lua:136: run(): run 2, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] global.lua:9: __init(): global init0, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] global.lua:18: _old_init(): old global init1, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] config.lua:112: init(): old config init1, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] config.lua:116: init(): old config init2, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] config.lua:124: init(): old config init3, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] global.lua:21: _old_init(): old global init1, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] global.lua:25: _old_init(): old global init1, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] global.lua:29: _old_init(): old global init1, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] global.lua:33: _old_init(): old global init1, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] global.lua:11: __init(): global init1, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] global.lua:13: __init(): global init2, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] global.lua:16: __init(): global init3, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] global.lua:19: __init(): global init4, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] global.lua:22: __init(): global init5, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] global.lua:25: __init(): global init6, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] global.lua:31: __init(): global init7, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] connect.lua:138: run(): run 3, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:06:19 [error] 11524#7644: *3 [lua] connect.lua:143: run(): run 4, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/29 10:07:19 [error] 11524#7644: *13 lua entry thread aborted: runtime error: .\game\model\countMgr.lua:103: attempt to compare number with userdata
+stack traceback:
+coroutine 0:
+	.\game\model\countMgr.lua: in function 'send'
+	.\game\global.lua:30: in function 'callback'
+	.\include\timer.lua:28: in function <.\include\timer.lua:24>, context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/29 10:07:19 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/29 10:08:19 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/29 10:40:19 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/29 10:43:19 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/29 10:44:19 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/29 10:50:19 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/29 10:52:19 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/29 10:53:19 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/29 10:54:19 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/29 10:55:19 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/29 10:56:19 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/29 10:57:19 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/29 10:58:19 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/29 15:34:20 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/29 21:08:20 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 00:00:20 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 03:00:20 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 05:00:20 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 11:17:21 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 11:22:13 [error] 11524#7644: *39 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:13 [error] 11524#7644: *39 [lua] main.lua:5: begin start ws ----, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:13 [error] 11524#7644: *39 [lua] connect.lua:122: run(): run 0, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:13 [error] 11524#7644: *39 [lua] connect.lua:125: run(): run 1, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:13 [error] 11524#7644: *39 [lua] connect.lua:136: run(): run 2, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:13 [error] 11524#7644: *39 [lua] connect.lua:138: run(): run 3, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:13 [error] 11524#7644: *39 [lua] connect.lua:143: run(): run 4, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:21 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 11:22:48 [error] 11524#7644: *39 [lua] connect.lua:146: run(): client init falsefailed to receive the first 2 bytes: client aborted while sending to client, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:48 [error] 11524#7644: *39 [lua] main.lua:7: end start ws ---- while sending to client, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:48 [info] 11524#7644: *39 client prematurely closed connection while sending to client, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:55 [error] 11524#7644: *43 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:55 [error] 11524#7644: *43 [lua] main.lua:5: begin start ws ----, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:55 [error] 11524#7644: *43 [lua] connect.lua:122: run(): run 0, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:55 [error] 11524#7644: *43 [lua] connect.lua:125: run(): run 1, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:55 [error] 11524#7644: *43 [lua] connect.lua:136: run(): run 2, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:55 [error] 11524#7644: *43 [lua] connect.lua:138: run(): run 3, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:55 [error] 11524#7644: *43 [lua] connect.lua:143: run(): run 4, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:55 [error] 11524#7644: *3 [lua] connect.lua:146: run(): client init truenil while sending to client, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:55 [error] 11524#7644: *3 [lua] main.lua:7: end start ws ---- while sending to client, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:22:55 [info] 11524#7644: *3 client prematurely closed connection while sending to client, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:21 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:2  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 11:23:24 [error] 11524#7644: *46 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:24 [error] 11524#7644: *46 [lua] main.lua:5: begin start ws ----, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:24 [error] 11524#7644: *46 [lua] connect.lua:122: run(): run 0, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:24 [error] 11524#7644: *46 [lua] connect.lua:125: run(): run 1, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:24 [error] 11524#7644: *46 [lua] connect.lua:136: run(): run 2, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:24 [error] 11524#7644: *46 [lua] connect.lua:138: run(): run 3, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:24 [error] 11524#7644: *46 [lua] connect.lua:143: run(): run 4, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:24 [error] 11524#7644: *43 [lua] connect.lua:146: run(): client init truenil while sending to client, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:24 [error] 11524#7644: *43 [lua] main.lua:7: end start ws ---- while sending to client, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:24 [info] 11524#7644: *43 client prematurely closed connection while sending to client, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:31 [error] 11524#7644: *49 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:31 [error] 11524#7644: *49 [lua] main.lua:5: begin start ws ----, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:31 [error] 11524#7644: *49 [lua] connect.lua:122: run(): run 0, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:31 [error] 11524#7644: *49 [lua] connect.lua:125: run(): run 1, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:31 [error] 11524#7644: *49 [lua] connect.lua:136: run(): run 2, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:31 [error] 11524#7644: *49 [lua] connect.lua:138: run(): run 3, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:31 [error] 11524#7644: *49 [lua] connect.lua:143: run(): run 4, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:31 [error] 11524#7644: *46 [lua] connect.lua:146: run(): client init truenil while sending to client, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:31 [error] 11524#7644: *46 [lua] main.lua:7: end start ws ---- while sending to client, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:23:31 [info] 11524#7644: *46 client prematurely closed connection while sending to client, client: 192.168.1.138, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:24:21 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 11:29:21 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 11:34:16 [error] 11524#7644: *49 [lua] connect.lua:146: run(): client init falsefailed to receive the first 2 bytes: client aborted while sending to client, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:34:16 [error] 11524#7644: *49 [lua] main.lua:7: end start ws ---- while sending to client, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:34:16 [info] 11524#7644: *49 client prematurely closed connection while sending to client, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:34:21 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 11:35:00 [error] 11524#7644: *54 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:35:00 [error] 11524#7644: *54 [lua] main.lua:5: begin start ws ----, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:35:00 [error] 11524#7644: *54 [lua] connect.lua:122: run(): run 0, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:35:00 [error] 11524#7644: *54 [lua] connect.lua:125: run(): run 1, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:35:00 [error] 11524#7644: *54 [lua] connect.lua:136: run(): run 2, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:35:00 [error] 11524#7644: *54 [lua] connect.lua:138: run(): run 3, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:35:00 [error] 11524#7644: *54 [lua] connect.lua:143: run(): run 4, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 11:35:21 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 11:36:21 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 11:37:21 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 11:38:21 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 13:37:29 [error] 11524#7644: *54 [lua] connect.lua:146: run(): client init falsefailed to receive the first 2 bytes: client aborted while sending to client, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 13:37:29 [error] 11524#7644: *54 [lua] main.lua:7: end start ws ---- while sending to client, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 13:37:29 [info] 11524#7644: *54 client prematurely closed connection while sending to client, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 13:38:21 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 16:08:35 [error] 11524#7644: *60 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 16:08:35 [error] 11524#7644: *60 [lua] main.lua:5: begin start ws ----, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 16:08:35 [error] 11524#7644: *60 [lua] connect.lua:122: run(): run 0, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 16:08:35 [error] 11524#7644: *60 [lua] connect.lua:125: run(): run 1, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 16:08:35 [error] 11524#7644: *60 [lua] connect.lua:136: run(): run 2, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 16:08:35 [error] 11524#7644: *60 [lua] connect.lua:138: run(): run 3, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 16:08:35 [error] 11524#7644: *60 [lua] connect.lua:143: run(): run 4, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 16:09:21 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 16:10:21 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 16:11:21 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 16:12:21 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 16:13:22 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:1ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 16:14:22 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 16:15:22 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 16:16:22 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 16:17:22 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 16:18:22 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 16:19:22 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 16:21:22 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 16:22:22 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 16:26:22 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 16:27:22 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 17:05:22 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 17:06:22 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 17:09:22 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 17:10:22 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 17:11:23 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:1ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 17:12:23 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 17:16:23 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 17:45:23 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 17:46:23 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 17:48:23 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 17:49:23 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/30 18:06:22 [error] 11524#7644: *60 [lua] connect.lua:146: run(): client init falsefailed to receive the first 2 bytes: client aborted while sending to client, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 18:06:22 [error] 11524#7644: *60 [lua] main.lua:7: end start ws ---- while sending to client, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 18:06:22 [info] 11524#7644: *60 client prematurely closed connection while sending to client, client: 192.168.1.107, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/30 18:06:23 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/31 10:03:40 [error] 11524#7644: *101 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:03:40 [error] 11524#7644: *101 [lua] main.lua:5: begin start ws ----, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:03:40 [error] 11524#7644: *101 [lua] connect.lua:122: run(): run 0, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:03:40 [error] 11524#7644: *101 [lua] connect.lua:125: run(): run 1, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:03:40 [error] 11524#7644: *101 [lua] connect.lua:136: run(): run 2, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:03:40 [error] 11524#7644: *101 [lua] connect.lua:138: run(): run 3, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:03:40 [error] 11524#7644: *101 [lua] connect.lua:143: run(): run 4, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:04:02 [error] 11524#7644: *101 [lua] connect.lua:146: run(): client init falsefailed to receive the first 2 bytes: client aborted while sending to client, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:04:02 [error] 11524#7644: *101 [lua] main.lua:7: end start ws ---- while sending to client, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:04:02 [info] 11524#7644: *101 client prematurely closed connection while sending to client, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:04:12 [error] 11524#7644: *104 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:04:12 [error] 11524#7644: *104 [lua] main.lua:5: begin start ws ----, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:04:12 [error] 11524#7644: *104 [lua] connect.lua:122: run(): run 0, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:04:12 [error] 11524#7644: *104 [lua] connect.lua:125: run(): run 1, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:04:12 [error] 11524#7644: *104 [lua] connect.lua:136: run(): run 2, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:04:12 [error] 11524#7644: *104 [lua] connect.lua:138: run(): run 3, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:04:12 [error] 11524#7644: *104 [lua] connect.lua:143: run(): run 4, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:04:24 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/31 10:05:24 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/31 10:06:24 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/31 10:08:28 [error] 11524#7644: *104 [lua] connect.lua:146: run(): client init falsefailed to receive the first 2 bytes: client aborted while sending to client, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:08:28 [error] 11524#7644: *104 [lua] main.lua:7: end start ws ---- while sending to client, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:08:28 [info] 11524#7644: *104 client prematurely closed connection while sending to client, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:08:39 [error] 11524#7644: *110 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:08:39 [error] 11524#7644: *110 [lua] main.lua:5: begin start ws ----, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:08:39 [error] 11524#7644: *110 [lua] connect.lua:122: run(): run 0, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:08:39 [error] 11524#7644: *110 [lua] connect.lua:125: run(): run 1, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:08:39 [error] 11524#7644: *110 [lua] connect.lua:136: run(): run 2, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:08:39 [error] 11524#7644: *110 [lua] connect.lua:138: run(): run 3, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:08:39 [error] 11524#7644: *110 [lua] connect.lua:143: run(): run 4, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:09:24 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/31 10:10:24 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/31 10:11:24 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/31 10:12:24 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/31 10:13:24 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/31 10:14:24 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/31 10:17:30 [error] 11524#7644: *117 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:17:30 [error] 11524#7644: *117 [lua] main.lua:5: begin start ws ----, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:17:30 [error] 11524#7644: *117 [lua] connect.lua:122: run(): run 0, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:17:30 [error] 11524#7644: *117 [lua] connect.lua:125: run(): run 1, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:17:30 [error] 11524#7644: *117 [lua] connect.lua:136: run(): run 2, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:17:30 [error] 11524#7644: *117 [lua] connect.lua:138: run(): run 3, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:17:30 [error] 11524#7644: *117 [lua] connect.lua:143: run(): run 4, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:17:30 [error] 11524#7644: *117 [lua] connect.lua:146: run(): client init truenil, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:17:30 [error] 11524#7644: *117 [lua] main.lua:7: end start ws ----, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:17:30 [info] 11524#7644: *117 client prematurely closed connection, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:17:30 [info] 11524#7644: *110 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while sending to client, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:17:30 [error] 11524#7644: *110 [lua] connect.lua:146: run(): client init falsefailed to receive the first 2 bytes: an existing connection was forcibly closed by the remote host while sending to client, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:17:30 [error] 11524#7644: *110 [lua] main.lua:7: end start ws ---- while sending to client, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:17:30 [info] 11524#7644: *110 client prematurely closed connection (10054: An existing connection was forcibly closed by the remote host) while sending to client, client: 192.168.1.127, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:18:24 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/31 10:38:35 [error] 11524#7644: *122 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.116, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:38:35 [error] 11524#7644: *122 [lua] main.lua:5: begin start ws ----, client: 192.168.1.116, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:38:35 [error] 11524#7644: *122 [lua] connect.lua:122: run(): run 0, client: 192.168.1.116, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:38:35 [error] 11524#7644: *122 [lua] connect.lua:125: run(): run 1, client: 192.168.1.116, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:38:35 [error] 11524#7644: *122 [lua] connect.lua:136: run(): run 2, client: 192.168.1.116, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:38:35 [error] 11524#7644: *122 [lua] connect.lua:138: run(): run 3, client: 192.168.1.116, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:38:35 [error] 11524#7644: *122 [lua] connect.lua:143: run(): run 4, client: 192.168.1.116, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:39:24 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/31 10:40:24 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/31 10:45:14 [info] 11524#7644: *122 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while sending to client, client: 192.168.1.116, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:45:14 [error] 11524#7644: *122 [lua] connect.lua:146: run(): client init falsefailed to receive the first 2 bytes: an existing connection was forcibly closed by the remote host while sending to client, client: 192.168.1.116, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:45:14 [error] 11524#7644: *122 [lua] main.lua:7: end start ws ---- while sending to client, client: 192.168.1.116, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:45:14 [info] 11524#7644: *122 client prematurely closed connection (10054: An existing connection was forcibly closed by the remote host) while sending to client, client: 192.168.1.116, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/08/31 10:45:24 [notice] 11524#7644: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.138, server: 0.0.0.0:8082
+2018/08/31 10:47:24 [notice] 15292#9272: signal process started
+2018/08/31 10:47:24 [notice] 10952#11672: shutting down
+2018/08/31 10:47:24 [notice] 11524#4956: gracefully shutting down
+2018/08/31 10:47:24 [notice] 11524#5788: exiting
+2018/09/04 16:51:23 [notice] 15364#10400: using the "select" event method
+2018/09/04 16:51:23 [notice] 15364#10400: openresty/1.13.6.2
+2018/09/04 16:51:23 [info] 15364#10400: OS: 300000 build:17134, "", suite:100, type:1
+2018/09/04 16:51:23 [notice] 15364#10400: start worker processes
+2018/09/04 16:51:23 [notice] 15364#10400: start worker process 21368
+2018/09/04 16:51:23 [notice] 21368#19964: openresty/1.13.6.2
+2018/09/04 16:51:23 [info] 21368#19964: OS: 300000 build:17134, "", suite:100, type:1
+2018/09/04 16:51:23 [notice] 21368#19964: create thread 20852
+2018/09/04 16:51:23 [notice] 21368#19964: create thread 20844
+2018/09/04 16:51:23 [notice] 21368#19964: create thread 19724
+2018/09/04 17:02:26 [error] 21368#20852: *3 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:26 [error] 21368#20852: *3 [lua] main.lua:5: begin start ws ----, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:26 [error] 21368#20852: *3 [lua] connect.lua:122: run(): run 0, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:26 [error] 21368#20852: *3 [lua] connect.lua:125: run(): run 1, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:26 [error] 21368#20852: *3 [lua] connect.lua:136: run(): run 2, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:26 [error] 21368#20852: *3 [lua] global.lua:9: __init(): global init0, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:26 [error] 21368#20852: *3 [lua] global.lua:18: _old_init(): old global init1, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:26 [error] 21368#20852: *3 [lua] config.lua:112: init(): old config init1, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:26 [error] 21368#20852: *3 [lua] config.lua:116: init(): old config init2, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:26 [error] 21368#20852: *3 [lua] config.lua:124: init(): old config init3, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:26 [error] 21368#20852: *3 [lua] global.lua:21: _old_init(): old global init1, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:28 [error] 21368#20852: *3 [lua] global.lua:25: _old_init(): old global init1, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:28 [error] 21368#20852: *3 [lua] global.lua:29: _old_init(): old global init1, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:28 [error] 21368#20852: *3 [lua] global.lua:33: _old_init(): old global init1, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:28 [error] 21368#20852: *3 [lua] global.lua:11: __init(): global init1, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:28 [error] 21368#20852: *3 [lua] global.lua:13: __init(): global init2, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:28 [error] 21368#20852: *3 [lua] global.lua:16: __init(): global init3, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:28 [error] 21368#20852: *3 [lua] global.lua:19: __init(): global init4, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:28 [error] 21368#20852: *3 [lua] global.lua:22: __init(): global init5, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:28 [error] 21368#20852: *3 [lua] global.lua:25: __init(): global init6, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:28 [error] 21368#20852: *3 [lua] global.lua:31: __init(): global init7, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:28 [error] 21368#20852: *3 [lua] connect.lua:138: run(): run 3, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:02:28 [error] 21368#20852: *3 [lua] connect.lua:143: run(): run 4, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:03:28 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:03:28 [error] 21368#20852: *13 lua entry thread aborted: runtime error: .\game\model\countMgr.lua:103: attempt to compare number with userdata
+stack traceback:
+coroutine 0:
+	.\game\model\countMgr.lua: in function 'send'
+	.\game\global.lua:30: in function 'callback'
+	.\include\timer.lua:28: in function <.\include\timer.lua:24>, context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:03:40 [error] 21368#20852: *18 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:03:40 [error] 21368#20852: *18 [lua] main.lua:5: begin start ws ----, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:03:40 [error] 21368#20852: *18 [lua] connect.lua:122: run(): run 0, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:03:40 [error] 21368#20852: *18 [lua] connect.lua:125: run(): run 1, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:03:40 [error] 21368#20852: *18 [lua] connect.lua:136: run(): run 2, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:03:40 [error] 21368#20852: *18 [lua] connect.lua:138: run(): run 3, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:03:40 [error] 21368#20852: *18 [lua] connect.lua:143: run(): run 4, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:03:40 [error] 21368#20852: *3 [lua] connect.lua:146: run(): client init truenil while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:03:40 [error] 21368#20852: *3 [lua] main.lua:7: end start ws ---- while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:03:40 [info] 21368#20852: *3 client prematurely closed connection while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:04:28 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:05:28 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:06:11 [error] 21368#20852: *18 [lua] connect.lua:146: run(): client init falsefailed to receive the first 2 bytes: client aborted while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:06:11 [error] 21368#20852: *18 [lua] main.lua:7: end start ws ---- while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:06:11 [info] 21368#20852: *18 client prematurely closed connection while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:06:16 [error] 21368#20852: *23 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:06:16 [error] 21368#20852: *23 [lua] main.lua:5: begin start ws ----, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:06:16 [error] 21368#20852: *23 [lua] connect.lua:122: run(): run 0, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:06:16 [error] 21368#20852: *23 [lua] connect.lua:125: run(): run 1, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:06:16 [error] 21368#20852: *23 [lua] connect.lua:136: run(): run 2, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:06:16 [error] 21368#20852: *23 [lua] connect.lua:138: run(): run 3, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:06:16 [error] 21368#20852: *23 [lua] connect.lua:143: run(): run 4, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:06:28 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:06:37 [error] 21368#20852: *23 [lua] connect.lua:146: run(): client init falsefailed to receive the first 2 bytes: client aborted while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:06:37 [error] 21368#20852: *23 [lua] main.lua:7: end start ws ---- while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:06:37 [info] 21368#20852: *23 client prematurely closed connection while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:07:28 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:41:54 [error] 21368#20852: *29 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:41:54 [error] 21368#20852: *29 [lua] main.lua:5: begin start ws ----, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:41:54 [error] 21368#20852: *29 [lua] connect.lua:122: run(): run 0, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:41:54 [error] 21368#20852: *29 [lua] connect.lua:125: run(): run 1, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:41:54 [error] 21368#20852: *29 [lua] connect.lua:136: run(): run 2, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:41:54 [error] 21368#20852: *29 [lua] connect.lua:138: run(): run 3, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:41:54 [error] 21368#20852: *29 [lua] connect.lua:143: run(): run 4, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:42:28 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:42:43 [error] 21368#20852: *29 [lua] connect.lua:146: run(): client init falsefailed to receive the first 2 bytes: client aborted while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:42:43 [error] 21368#20852: *29 [lua] main.lua:7: end start ws ---- while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:42:43 [info] 21368#20852: *29 client prematurely closed connection while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:42:57 [error] 21368#20852: *33 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:42:57 [error] 21368#20852: *33 [lua] main.lua:5: begin start ws ----, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:42:57 [error] 21368#20852: *33 [lua] connect.lua:122: run(): run 0, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:42:57 [error] 21368#20852: *33 [lua] connect.lua:125: run(): run 1, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:42:57 [error] 21368#20852: *33 [lua] connect.lua:136: run(): run 2, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:42:57 [error] 21368#20852: *33 [lua] connect.lua:138: run(): run 3, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:42:57 [error] 21368#20852: *33 [lua] connect.lua:143: run(): run 4, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:43:28 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:44:28 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:45:28 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:46:28 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:47:28 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:1  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:47:37 [error] 21368#20852: *41 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:47:37 [error] 21368#20852: *41 [lua] main.lua:5: begin start ws ----, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:47:37 [error] 21368#20852: *41 [lua] connect.lua:122: run(): run 0, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:47:37 [error] 21368#20852: *41 [lua] connect.lua:125: run(): run 1, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:47:37 [error] 21368#20852: *41 [lua] connect.lua:136: run(): run 2, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:47:37 [error] 21368#20852: *41 [lua] connect.lua:138: run(): run 3, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:47:37 [error] 21368#20852: *41 [lua] connect.lua:143: run(): run 4, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:48:28 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:2  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:49:28 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:2  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:50:29 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:2  use time:1ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:51:29 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:2  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:52:29 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:2  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:53:29 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:2  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:54:29 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:2  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:55:29 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:2  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:55:39 [error] 21368#20852: *33 [lua] connect.lua:146: run(): client init falsefailed to receive the first 2 bytes: client aborted while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:55:39 [error] 21368#20852: *33 [lua] main.lua:7: end start ws ---- while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:55:39 [info] 21368#20852: *33 client prematurely closed connection while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:56:10 [error] 21368#20852: *50 [lua] connect.lua:8: __init(): init onnect, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:56:10 [error] 21368#20852: *50 [lua] main.lua:5: begin start ws ----, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:56:10 [error] 21368#20852: *50 [lua] connect.lua:122: run(): run 0, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:56:10 [error] 21368#20852: *50 [lua] connect.lua:125: run(): run 1, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:56:10 [error] 21368#20852: *50 [lua] connect.lua:136: run(): run 2, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:56:10 [error] 21368#20852: *50 [lua] connect.lua:138: run(): run 3, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:56:10 [error] 21368#20852: *50 [lua] connect.lua:143: run(): run 4, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:56:29 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:2  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/04 17:57:00 [error] 21368#20852: *50 [lua] connect.lua:146: run(): client init falsefailed to receive the first 2 bytes: client aborted while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:57:00 [error] 21368#20852: *50 [lua] main.lua:7: end start ws ---- while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:57:00 [info] 21368#20852: *50 client prematurely closed connection while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:57:29 [error] 21368#20852: *41 [lua] connect.lua:146: run(): client init falsefailed to receive the first 2 bytes: client aborted while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:57:29 [error] 21368#20852: *41 [lua] main.lua:7: end start ws ---- while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:57:29 [info] 21368#20852: *41 client prematurely closed connection while sending to client, client: 192.168.1.93, server: , request: "GET /game HTTP/1.1", host: "192.168.1.138:8082"
+2018/09/04 17:57:29 [notice] 21368#20852: *5 [lua] roleMgr.lua:164: save(): =====>save role data:2  use time:0ms , context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082
+2018/09/09 22:03:53 [error] 21368#20852: *9 [lua] db.lua:94: excute(): =====>excute sql error:no connectsql: INSERT INTO `reward` (`id`,`type`,`time`,`sendtime`,`data`) VALUES ('1480','3','1536501600','1536501827','{\"range\":[[1,1],[2,2],[3,3],[4,4],[5,5],[6,6],[7,7],[8,8],[9,9],[10,10],[11,20000]],\"profit\":[{\"15\":1000,\"22014\":20},{\"15\":900,\"22014\":15},{\"15\":800,\"22014\":10},{\"15\":700,\"22014\":9},{\"15\":650,\"22014\":8},{\"15\":600,\"22014\":7},{\"15\":550,\"22014\":6},{\"15\":500,\"22014\":5},{\"15\":450,\"22014\":4},{\"15\":400,\"22014\":3},{\"15\":300,\"22014\":2}],\"type\":3,\"rank_type\":7}') ON DUPLICATE KEY UPDATE `id`=VALUES(`id`),`type`=VALUES(`type`),`time`=VALUES(`time`),`sendtime`=VALUES(`sendtime`),`data`=VALUES(`data`), context: ngx.timer, client: 192.168.1.93, server: 0.0.0.0:8082

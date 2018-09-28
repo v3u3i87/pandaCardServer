@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<script src="jquery-2.1.1.min.js"></script>
+	<script src="md5.js"></script>
+	<script src="admin.js"></script>
+	<script>
+	var ws = null;
+	var breconnect = false;
+	function connect() {
+		if (ws !== null) return log('already connected');
+		var pw = CryptoJS.MD5(get_string('input_pwd'));
+		ws = new WebSocket('ws://' + get_string('input_server') + ":" + get_string('input_port') + '/game?gm='+pw);
+		var blogin = true;
+		ws.onopen = function () {
+			ws.send('{"task":"login","uid":"gm","verify":"'+pw+'"}');
+			breconnect = false;
+		};
+		ws.onerror = function (error) {
+			log(error);
+			if(blogin){
+				$$("login").hidden = null;
+				$$("gm").hidden = "none";
+			}
+		};
+		ws.onmessage = function (e) {
+			var rec = JSON.parse(e.data);
+			if(rec.status == 201){
+				ws.close()
+				ws = null;
+				alert("wrong password")
+			}else if(blogin){
+				blogin = false
+				$$("login").hidden = "none";
+				$$("gm").hidden = null;
+			}else{
+				log(e.data);
+				if(rec.task == "gm.service_open"){
+					breconnect = true;
+					ws.close();
+				}
+			}
+		};
+		ws.onclose = function () {
+			ws = null;
+			if(breconnect){
+				connect();
+			}
+		};
+		return false;
+	}
+
+	function disconnect() {
+	  if (ws === null) return log('already disconnected');
+	  ws.close();
+	  ws = null;
+	  return false;
+	}
+
+	function get_string(id){
+		return document.getElementById(id).value;
+	}
+
+	function get_num(id){
+		var value = document.getElementById(id).value;
+		return parseInt(value);
+	}
+	
+	function get_json(id){
+		var str = get_string(id);
+		if(str == "")str = "{}"
+		return JSON.parse(str);
+	}
+	
+	function send() {
+	  if (ws === null) return log('please connect first');
+	  var cmd = get_json("input_cmd")
+	  cmd.task = get_string("fname")
+	  var uid = get_num('input_roleId');
+	  if(isNaN(uid)){
+		cmd.uname = get_string('input_roleName');
+	  }else{
+		cmd.uid = uid;
+	  }
+	  var st = JSON.stringify(cmd)
+	  ws.send(st);
+	  return false;
+	}
+
+	function log(text) {
+	  $$("DEBUG").value = text
+	  return false;
+	}
+	GMUtils.Init();
+	</script>
+	<title>ACE H5：管理功能</title>
+</head>
+<body>
+	<div id="login" style="margin-left: auto;margin-right: auto;">
+		游戏服务器：地址 <input id="input_server" size=8 value="127.0.0.1"/>
+		端口 <input id="input_port" size=4 value="8082"/>
+		GM密码 <input id="input_pwd" value="123qwe!@#" type=password size=8/>
+		<input id="loginbtn" value="登录" type=button size=8 onclick="connect()"/><br/><br/><br/>
+	</div>
+	<div id="gm" hidden>
+		玩家:ID(优先使用)<input id="input_roleId" size="10" />或昵称<input id="input_roleName" size="12" /><br/><br/>
+		指令:<input id="fname" size="30" />&nbsp;&nbsp;&nbsp;&nbsp;请从右侧链接选择<br/>
+		参数:<br/>
+		<textarea cols=60 rows=8 id="input_cmd"></textarea><br/>
+		<input type="button" value="发送" onclick="send()" />
+		<br/><br/>
+		道具列表:<select id="select_items" onchange="GMUtils.changeItem();"></select><input id="input_searchitem" size=6 onkeydown="if((event||window.event).keyCode==13){GMUtils.searchItem();}" /><input type=button value="查物品" onclick="GMUtils.searchItem();">&nbsp;id:<span id="itemid"></span><br/>
+		<br/><br/>
+		返回信息:<br/>
+		<textarea cols="60" rows="12" id="DEBUG"></textarea>
+		<div id="command" style="position:absolute;top:10px;left:560px;width:500px;height:600px;overflow-x:hidden;overflow-y:scroll;border:solid red 1px;">
+			指令:<br/><br/>
+			<a href="javascript:GMUtils.autoInput('OpenServer');">开服</a>&nbsp;&nbsp;
+			<a href="javascript:GMUtils.autoInput('CloseServer');">关服</a><br/><br/>
+			<a href="javascript:GMUtils.autoInput('AddItem');">添加物品</a>&nbsp;&nbsp;
+			<a href="javascript:GMUtils.autoInput('SetLevel');">设置角色等级</a><br/><br/>
+			<a href="javascript:GMUtils.autoInput('CommanderSetSkillLevel');">设置指挥官技能等级</a>&nbsp;&nbsp;
+			<a href="javascript:GMUtils.autoInput('AddVipExp');">增加角色vip经验</a><br/><br/>
+			<a href="javascript:GMUtils.autoInput('PayItem');">充值购买商城物品</a><br/><br/>
+			<a href="javascript:GMUtils.autoInput('SetSatage');">设置关卡</a>&nbsp;&nbsp;
+			<a href="javascript:GMUtils.autoInput('SetAlliancegirl');">设置约会好感度</a><br/><br/>
+			<a href="javascript:GMUtils.autoInput('setCount');">设置次數(1:基金,)</a><br/><br/>
+			<a href="javascript:GMUtils.autoInput('SetResourceStep');">设置掠夺位置</a><br/><br/>
+			
+		</div>
+	</div>
+</body>
+</html>
